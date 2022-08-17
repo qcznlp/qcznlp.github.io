@@ -33,7 +33,9 @@ My main research interests are at the intersection of NLP, sociolinguistics, and
 
 <sup>*</sup> denotes equal contribution.
 - **A Survey in Automatic Irony Processing: Linguistic, Cognitive, and Multi-X Perspectives**
+
   **Qingcheng Zeng**, An-ran Li
+  
   Accepted at **COLING 2022**
 
 - **Low-resource Accent Classification in Geographically-proximate Settings: A Forensic and Sociophonetics Perspective**
