@@ -32,12 +32,15 @@ My main research interests are at the intersection of NLP, sociolinguistics, and
 ## Publications
 
 <sup>*</sup> denotes equal contribution.
+- **A Survey in Automatic Irony Processing: Linguistic, Cognitive, and Multi-X Perspectives**
+  **Qingcheng Zeng**, An-ran Li
+  Accepted at **COLING 2022**
 
 - **Low-resource Accent Classification in Geographically-proximate Settings: A Forensic and Sociophonetics Perspective**
 
   **Qingcheng Zeng**, Dading Chong, Peilin Zhou, Jie Yang
   
-  **INTERSPEECH 2022**
+  Accepted at **INTERSPEECH 2022**
   
   [[Paper]](/personal_homepage_assets/papers/INTERSPEECH_2022.pdf)
 
@@ -45,7 +48,7 @@ My main research interests are at the intersection of NLP, sociolinguistics, and
 
   Peilin Zhou, Dading Chong, Helin Wang, **Qingcheng Zeng**
   
-  **INTERSPEECH 2022**
+  Accepted at **INTERSPEECH 2022**
   
   [[Paper]](/personal_homepage_assets/papers/2205.11008.pdf)
   
