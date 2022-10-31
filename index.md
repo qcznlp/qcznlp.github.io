@@ -78,4 +78,4 @@ My main research interests are at the intersection of NLP, sociolinguistics, and
 ## Personal
 When I am not doing computational linguistics and NLP, I enjoy jogging, cooking Chinese food, and playing guitar.
 
-I hope to be engaged to my girlfriend Xin, the love of my life in a not too distant future.
+I hope to be engaged to my girlfriend XXN, the love of my life in a not too distant future.
