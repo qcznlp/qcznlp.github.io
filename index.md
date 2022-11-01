@@ -36,13 +36,15 @@ My main research interests are at the intersection of NLP, sociolinguistics, and
 
   **Qingcheng Zeng**, An-ran Li
   
-  Accepted at **COLING 2022**
+  **COLING 2022**
+  
+  [[Paper]](https://aclanthology.org/2022.coling-1.69.pdf)
 
 - **Low-resource Accent Classification in Geographically-proximate Settings: A Forensic and Sociophonetics Perspective**
 
   **Qingcheng Zeng**, Dading Chong, Peilin Zhou, Jie Yang
   
-  Accepted at **INTERSPEECH 2022**
+  **INTERSPEECH 2022**
   
   [[Paper]](/personal_homepage_assets/papers/INTERSPEECH_2022.pdf)
 
@@ -50,7 +52,7 @@ My main research interests are at the intersection of NLP, sociolinguistics, and
 
   Peilin Zhou, Dading Chong, Helin Wang, **Qingcheng Zeng**
   
-  Accepted at **INTERSPEECH 2022**
+  **INTERSPEECH 2022**
   
   [[Paper]](/personal_homepage_assets/papers/2205.11008.pdf)
   
@@ -65,6 +67,12 @@ My main research interests are at the intersection of NLP, sociolinguistics, and
 ## Preprints
 
 <sup>*</sup> denotes equal contribution.
+
+- **Filter and Evolve: Progressive Pseudo Label Refining for Semi-supervised Automatic Speech Recognition**
+  
+  Zezhong Jin, Dading Chong, Xiao Song, Zhaoyi Liu, Naipeng Ye, **Qingcheng Zeng**
+  
+  [[Paper]](https://arxiv.org/pdf/2210.16318.pdf)
 
 - **Masked Spectrogram Prediction For Self-Supervised Audio Pre-Training**
 
