@@ -32,6 +32,13 @@ My main research interests are at the intersection of NLP, sociolinguistics, and
 ## Publications
 
 <sup>*</sup> denotes equal contribution.
+- **Masked Spectrogram Prediction For Self-Supervised Audio Pre-Training**
+
+  Dading Chong, Helin Wang, Peilin Zhou, **Qingcheng Zeng**
+  **ICASSP 2023**
+  
+  [[Paper]](/personal_homepage_assets/papers/2204.12768.pdf)
+  
 - **A Survey in Automatic Irony Processing: Linguistic, Cognitive, and Multi-X Perspectives**
 
   **Qingcheng Zeng**, An-ran Li
@@ -74,11 +81,7 @@ My main research interests are at the intersection of NLP, sociolinguistics, and
   
   [[Paper]](https://arxiv.org/pdf/2210.16318.pdf)
 
-- **Masked Spectrogram Prediction For Self-Supervised Audio Pre-Training**
 
-  Dading Chong, Helin Wang, Peilin Zhou, **Qingcheng Zeng**
-  
-  [[Paper]](/personal_homepage_assets/papers/2204.12768.pdf)
 
 ## Service
 **Reviewer**: ICTAI 2022, AACL 2022
