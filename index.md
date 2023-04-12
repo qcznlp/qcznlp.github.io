@@ -10,9 +10,9 @@ Before that, I received my bachelor in linguistics from [University of Mancheste
 
 My main research interests are at the intersection of NLP, sociolinguistics, and psycholinguistics, including but not limited to topics like **pragmatic reasoning in large language models, automatic discourse processing, NLP for Social Good, NLP for Political Science, and multimodal interaction in dialogues**. During my undergraduate studies, I worked extensively in computational phonology and sociophonetics with Dr. [Patrycja Strycharczuk](https://www.research.manchester.ac.uk/portal/patrycja.strycharczuk.html). In sociophonetics, I am particularly interested in **using statistical learning and deep learning methods to detect language variations and changes**.
 
-**Feel free to contact me if your research lies within these or related areas!**
+**Feel free to contact me if your research lies within these or related areas! You can reach me by DM on Twitter.**
 
-[[Google Scholar]](https://scholar.google.com/citations?user=i0K71KQAAAAJ&hl) [[Twitter]](https://twitter.com/SteveZeng7) [[Email]](mailto:qingchengzeng@outlook.com)
+[[Google Scholar]](https://scholar.google.com/citations?user=i0K71KQAAAAJ&hl) [[Twitter]](https://twitter.com/SteveZeng7)
 
 ## Education
   
