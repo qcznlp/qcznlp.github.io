@@ -4,11 +4,11 @@ layout: default
 
 
 ## About
-Hello! My name is Qingcheng Zeng (曾庆诚), also go by Steve. Currently, I am a first-year PhD student in the *Computation and Linguistic Mechanisms Lab*, [Department of Linguistics](https://linguistics.northwestern.edu/) at Northwestern University, working with Professor [Rob Voigt](https://faculty.wcas.northwestern.edu/robvoigt/) and Professor [Matt Goldrick](https://faculty.wcas.northwestern.edu/matt-goldrick/#!/) on **natural language processing (NLP), computational linguistics, social computing, and computational phonology**.
+Hello! My name is Qingcheng Zeng (曾庆诚), also go by Steve. Currently, I am a first-year PhD student in the *Computation and Linguistic Mechanisms Lab*, [Department of Linguistics](https://linguistics.northwestern.edu/) at Northwestern University, working with Professor [Rob Voigt](https://faculty.wcas.northwestern.edu/robvoigt/) on **natural language processing (NLP), computational linguistics, and social computing.**.
 
 Before that, I received my bachelor in linguistics from [University of Manchester](https://www.alc.manchester.ac.uk/linguistics-and-english-language/) and [Zhejiang University](http://www.sis.zju.edu.cn/sisenglish/main.htm) in 2021. After graduation, I am honored to work as a full-time research assistant with Dr. [Jie Yang](https://ylab.top/jieyang/) at Zhejiang University.
 
-My main research interests are at the intersection of NLP, sociolinguistics, and psycholinguistics, including but not limited to topics like **pragmatic reasoning in large language models, automatic discourse processing, NLP for Social Good, NLP for Political Science, and multimodal interaction in dialogues**. During my undergraduate studies, I worked extensively in computational phonology and sociophonetics with Dr. [Patrycja Strycharczuk](https://www.research.manchester.ac.uk/portal/patrycja.strycharczuk.html). In sociophonetics, I am particularly interested in **using statistical learning and deep learning methods to detect language variations and changes**.
+My main research interests are at the intersection of NLP, sociolinguistics, and psycholinguistics, including but not limited to topics like **pragmatic reasoning in large language models, automatic discourse processing, NLP for Social Good, NLP for Political Science, and efficient NLP**. During my undergraduate studies, I worked extensively in computational phonology and sociophonetics with Dr. [Patrycja Strycharczuk](https://www.research.manchester.ac.uk/portal/patrycja.strycharczuk.html). In sociophonetics, I am particularly interested in **using statistical learning and deep learning methods to detect language variations and changes**.
 
 **Feel free to contact me if your research lies within these or related areas! You can reach me by DM on Twitter.**
 
@@ -18,7 +18,7 @@ My main research interests are at the intersection of NLP, sociolinguistics, and
   
 - **Northwestern University**, 2022-Present
   
-  PhD in Computational Linguistics, *Advisor: Dr. Rob Voigt*
+  PhD in Computational Linguistics, *Advisor: Professor Rob Voigt*
   
 - **University of Manchester**, 2019-2021
     
@@ -32,13 +32,14 @@ My main research interests are at the intersection of NLP, sociolinguistics, and
 ## Publications
 
 <sup>*</sup> denotes equal contribution.
-- **Masked Spectrogram Prediction For Self-Supervised Audio Pre-Training**
 
-  Dading Chong, Helin Wang, Peilin Zhou, **Qingcheng Zeng**
+- **GreenPLM: Cross-Lingual Transfer of Monolingual Pre-Trained Language Models at Almost No Cost**
+
+  **Qingcheng Zeng<sup>*</sup>**, Lucas Garay<sup>*</sup>, Peilin Zhou<sup>*</sup>, Dading Chong, Yining Hua, Jiageng Wu, Yikang Pan, Han Zhou, Rob Voigt, Jie Yang
   
-  **ICASSP 2023**
+  Accepted at **IJCAI 2023 (AI and Social Good Track)**
   
-  [[Paper]](/personal_homepage_assets/papers/2204.12768.pdf)
+  [[Paper]](https://arxiv.org/pdf/2211.06993.pdf)
   
 - **A Survey in Automatic Irony Processing: Linguistic, Cognitive, and Multi-X Perspectives**
 
@@ -72,9 +73,16 @@ My main research interests are at the intersection of NLP, sociolinguistics, and
   
   [[Paper]](/personal_homepage_assets/papers/2009.12997.11008.pdf)
 
-## Preprints
+## Manuscripts
 
 <sup>*</sup> denotes equal contribution.
+- **Masked Spectrogram Prediction For Self-Supervised Audio Pre-Training**
+
+  Dading Chong, Helin Wang, Peilin Zhou, **Qingcheng Zeng**
+  
+  Accepted at **ICASSP 2023**
+  
+  [[Paper]](/personal_homepage_assets/papers/2204.12768.pdf)
 
 - **Filter and Evolve: Progressive Pseudo Label Refining for Semi-supervised Automatic Speech Recognition**
   
