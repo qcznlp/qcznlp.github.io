@@ -4,7 +4,7 @@ layout: default
 
 
 ## About
-Hello! My name is Qingcheng Zeng (曾庆诚), also go by Steve. Currently, I am a first-year PhD student in the *Computation and Linguistic Mechanisms Lab*, [Department of Linguistics](https://linguistics.northwestern.edu/) at Northwestern University, working with Professor [Rob Voigt](https://faculty.wcas.northwestern.edu/robvoigt/) on **natural language processing (NLP), computational linguistics, and social computing.**.
+Hello! My name is Qingcheng Zeng (曾庆诚), also go by Steve. Currently, I am a first-year PhD student in the *Computation and Linguistic Mechanisms Lab*, [Department of Linguistics](https://linguistics.northwestern.edu/) at Northwestern University, working with Professor [Rob Voigt](https://faculty.wcas.northwestern.edu/robvoigt/) on **natural language processing (NLP), computational linguistics, and social computing.**
 
 Before that, I received my bachelor in linguistics from [University of Manchester](https://www.alc.manchester.ac.uk/linguistics-and-english-language/) and [Zhejiang University](http://www.sis.zju.edu.cn/sisenglish/main.htm) in 2021. After graduation, I am honored to work as a full-time research assistant with Dr. [Jie Yang](https://ylab.top/jieyang/) at Zhejiang University.
 
