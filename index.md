@@ -31,11 +31,17 @@ My main research interests are at the intersection of NLP, sociolinguistics, and
 
 ## Publications
 
-<sup>*</sup> denotes equal contribution.
+<sup>*</sup> denotes equal contribution; <sup>#</sup> denotes the corresponding author.
+
+- **Large Language Models Display Adaptation to Syntactic but not Semantic Referential Patterns in Pronoun Interpretation**
+
+  Suet-Ying Lam<sup>*</sup>, **Qingcheng Zeng<sup>*#</sup>**, Kexun Zhang<sup>*</sup>, Chenyu You, Rob Voigt
+  
+  Accepted at **Findings of ACL 2023**
 
 - **GreenPLM: Cross-Lingual Transfer of Monolingual Pre-Trained Language Models at Almost No Cost**
 
-  **Qingcheng Zeng<sup>*</sup>**, Lucas Garay<sup>*</sup>, Peilin Zhou<sup>*</sup>, Dading Chong, Yining Hua, Jiageng Wu, Yikang Pan, Han Zhou, Rob Voigt, Jie Yang
+  **Qingcheng Zeng<sup>*</sup>**, Lucas Garay<sup>*</sup>, Peilin Zhou<sup>*</sup>, Dading Chong, Yining Hua, Jiageng Wu, Yikang Pan, Han Zhou, Rob Voigt, Jie Yang<sup>#</sup>
   
   Accepted at **IJCAI 2023 (AI and Social Good Track)**
   
@@ -51,7 +57,7 @@ My main research interests are at the intersection of NLP, sociolinguistics, and
 
 - **Low-resource Accent Classification in Geographically-proximate Settings: A Forensic and Sociophonetics Perspective**
 
-  **Qingcheng Zeng**, Dading Chong, Peilin Zhou, Jie Yang
+  **Qingcheng Zeng**, Dading Chong, Peilin Zhou, Jie Yang<sup>#</sup>
   
   **INTERSPEECH 2022**
   
