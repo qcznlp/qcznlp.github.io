@@ -57,7 +57,7 @@ My main research interests are at the intersection of NLP, sociolinguistics, and
 
 - **Low-resource Accent Classification in Geographically-proximate Settings: A Forensic and Sociophonetics Perspective**
 
-  **Qingcheng Zeng**, Dading Chong, Peilin Zhou, Jie Yang<sup>#</sup>
+  **Qingcheng Zeng**, Dading Chong, Peilin Zhou, Jie Yang:envelope:
   
   **INTERSPEECH 2022**
   
