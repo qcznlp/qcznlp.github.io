@@ -99,7 +99,7 @@ My main research interests are at the intersection of NLP, sociolinguistics, and
 
 
 ## Service
-**Reviewer**: ICTAI 2022, AACL 2022
+**Reviewer**: ICTAI 2022, AACL 2022, AACL-IJCNLP 2023
   
 ## Personal
 When I am not doing computational linguistics and NLP, I enjoy jogging, cooking Chinese food, and playing guitar.
