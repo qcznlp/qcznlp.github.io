@@ -35,7 +35,7 @@ My main research interests are at the intersection of NLP, sociolinguistics, and
 
 - **Large Language Models Display Adaptation to Syntactic but not Semantic Referential Patterns in Pronoun Interpretation**
 
-  Suet-Ying Lam<sup>*</sup>, **Qingcheng Zeng^#<sup>*</sup>**, Kexun Zhang<sup>*</sup>, Chenyu You, Rob Voigt
+  Suet-Ying Lam<sup>*</sup>, **Qingcheng Zeng<sup>*#</sup>**, Kexun Zhang<sup>*</sup>, Chenyu You, Rob Voigt
   
   Accepted at **Findings of ACL 2023**
 
