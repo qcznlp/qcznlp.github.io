@@ -33,11 +33,13 @@ My main research interests are at the intersection of NLP, sociolinguistics, and
 
 <sup>*</sup> denotes equal contribution; <sup>#</sup> denotes the corresponding author.
 
-- **Large Language Models Display Adaptation to Syntactic but not Semantic Referential Patterns in Pronoun Interpretation**
+- **Large Language Models Are Partially Primed in Pronoun Interpretation**
 
   Suet-Ying Lam<sup>*</sup>, **Qingcheng Zeng<sup>*#</sup>**, Kexun Zhang<sup>*</sup>, Chenyu You, Rob Voigt
   
   Accepted at **Findings of ACL 2023**
+
+  [[Paper]](https://arxiv.org/abs/2305.16917)[[Codes]](https://github.com/zkx06111/llm_priming)
 
 - **GreenPLM: Cross-Lingual Transfer of Monolingual Pre-Trained Language Models at Almost No Cost**
 
@@ -45,7 +47,7 @@ My main research interests are at the intersection of NLP, sociolinguistics, and
   
   Accepted at **IJCAI 2023 (AI and Social Good Track)**
   
-  [[Paper]](https://arxiv.org/pdf/2211.06993.pdf)
+  [[Paper]](https://arxiv.org/pdf/2211.06993.pdf)[[Codes]](https://github.com/qcznlp/GreenPLMs)
   
 - **A Survey in Automatic Irony Processing: Linguistic, Cognitive, and Multi-X Perspectives**
 
