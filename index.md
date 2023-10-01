@@ -4,13 +4,13 @@ layout: default
 
 
 ## About
-Hello! My name is Qingcheng Zeng (曾庆诚), also go by Steve. Currently, I am a first-year PhD student in the [*Computation and Linguistic Mechanisms Lab*](https://sites.northwestern.edu/lingmechlab/), [Department of Linguistics](https://linguistics.northwestern.edu/) at Northwestern University, working with Professor [Rob Voigt](https://faculty.wcas.northwestern.edu/robvoigt/) on **natural language processing (NLP), computational linguistics, and social computing.**
+Hello! My name is Qingcheng Zeng (曾庆诚), and I also go by Steve. Currently, I am a second-year PhD student in the [*Computation and Linguistic Mechanisms Lab*](https://sites.northwestern.edu/lingmechlab/), [Department of Linguistics](https://linguistics.northwestern.edu/) at Northwestern University, working with Professor [Rob Voigt](https://faculty.wcas.northwestern.edu/robvoigt/) on **natural language processing (NLP), computational linguistics, and social computing.**
 
-Before that, I received my bachelor in linguistics from [University of Manchester](https://www.alc.manchester.ac.uk/linguistics-and-english-language/) and [Zhejiang University](http://www.sis.zju.edu.cn/sisenglish/main.htm) in 2021. After graduation, I am honored to work as a full-time research assistant with Dr. [Jie Yang](https://ylab.top/jieyang/) at Zhejiang University.
+Before that, I received my bachelor in linguistics from the [University of Manchester](https://www.alc.manchester.ac.uk/linguistics-and-english-language/) and [Zhejiang University](http://www.sis.zju.edu.cn/sisenglish/main.htm) in 2021. After graduation, I am honored to work as a full-time research assistant with Dr. [Jie Yang](https://ylab.top/jieyang/) at Zhejiang University.
 
 My main research interests are at the intersection of NLP, sociolinguistics, and psycholinguistics, including but not limited to topics like **pragmatic reasoning in large language models, automatic discourse processing, NLP for Social Good, NLP for Political Science, and efficient NLP**. During my undergraduate studies, I worked extensively in computational phonology and sociophonetics with Dr. [Patrycja Strycharczuk](https://www.research.manchester.ac.uk/portal/patrycja.strycharczuk.html). In sociophonetics, I am particularly interested in **using statistical learning and deep learning methods to detect language variations and changes**.
 
-**Feel free to contact me if your research lies within these or related areas! You can reach me by DM on Twitter.**
+**Feel free to contact me if your research lies within these or related areas! Feel free to reach me by DM on Twitter.**
 
 [[Google Scholar]](https://scholar.google.com/citations?user=i0K71KQAAAAJ&hl) [[Twitter]](https://twitter.com/SteveZeng7)
 
