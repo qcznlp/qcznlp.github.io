@@ -12,7 +12,7 @@ My main research interests are at the intersection of NLP, sociolinguistics, and
 
 **Feel free to contact me if your research lies within these or related areas! Feel free to reach me by DM on Twitter.**
 
-[[Google Scholar]](https://scholar.google.com/citations?user=i0K71KQAAAAJ&hl) [[Twitter]](https://twitter.com/SteveZeng7) [[CV]](/personal_homepage_assets/Qingcheng_CV_Dec2023.pdf)
+[[Google Scholar]](https://scholar.google.com/citations?user=i0K71KQAAAAJ&hl) [[Twitter]](https://twitter.com/SteveZeng7) [[CV]](/personal_homepage_assets/Qingcheng_CV_Mar2024.pdf)
 
 ## Education
   
