@@ -32,8 +32,7 @@ Recently, I am mainly interested in the following research areas:
 Check my [[CV]](/personal_homepage_assets/Qingcheng_CV_Sep2024.pdf) or [[Google Scholar]](https://scholar.google.com/citations?user=i0K71KQAAAAJ&hl) for my most recent publications.
 
 ## Service
-**Reviewer**: ICTAI 2022, AACL 2022, AACL-IJCNLP 2023
+**Reviewer**: ICTAI 2022, AACL 2022, AACL-IJCNLP 2023, ACL Rolling Review 2024, Computer Speech and Language, Knowledge-based Systems, IEEE Access
   
 ## Personal
 When I am not doing computational linguistics and NLP, I enjoy jogging, cooking Chinese food, and playing guitar.
-
