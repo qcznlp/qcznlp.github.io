@@ -11,7 +11,7 @@ Recently, I am mainly interested in the following research areas:
 - **Trustworthy LLMs, Uncertainty Quantification, Calibration**
 - **Understanding multilingual LLMs**
 
-[[Google Scholar]](https://scholar.google.com/citations?user=i0K71KQAAAAJ&hl) [[Twitter]](https://twitter.com/SteveZeng7) [[CV]](/personal_homepage_assets/Qingcheng_CV_Sep2024.pdf)
+[[Google Scholar]](https://scholar.google.com/citations?user=i0K71KQAAAAJ&hl) [[Twitter]](https://twitter.com/SteveZeng7) [[CV]](/personal_homepage_assets/Qingcheng_CV_Dec2024.pdf)
 
 ## Education
   
@@ -29,7 +29,7 @@ Recently, I am mainly interested in the following research areas:
   
 
 ## Publications
-Check my [[CV]](/personal_homepage_assets/Qingcheng_CV_Sep2024.pdf) or [[Google Scholar]](https://scholar.google.com/citations?user=i0K71KQAAAAJ&hl) for my most recent publications.
+Check my [[CV]](/personal_homepage_assets/Qingcheng_CV_Dec2024.pdf) or [[Google Scholar]](https://scholar.google.com/citations?user=i0K71KQAAAAJ&hl) for my most recent publications.
 
 ## Service
 **Reviewer**: ICTAI 2022, AACL 2022, AACL-IJCNLP 2023, ACL Rolling Review 2024, Computer Speech and Language, Knowledge-based Systems, IEEE Access
