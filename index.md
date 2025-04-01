@@ -9,9 +9,10 @@ Hello! My name is Qingcheng Zeng (曾庆诚), and I also go by Steve. Currently,
 Recently, I am mainly interested in the following research areas:
 - **LLMs for Computational Social Science**
 - **Trustworthy LLMs, Uncertainty Quantification, Calibration**
-- **Understanding multilingual LLMs**
+- **Evaluating multilingual LLMs**
+- **Understanding LLMs through the lens of cognitive science**
 
-[[Google Scholar]](https://scholar.google.com/citations?user=i0K71KQAAAAJ&hl) [[Twitter]](https://twitter.com/SteveZeng7) [[CV]](/personal_homepage_assets/Qingcheng_CV_Feb2025.pdf)
+[[Google Scholar]](https://scholar.google.com/citations?user=i0K71KQAAAAJ&hl) [[Twitter]](https://twitter.com/SteveZeng7) [[CV]](/personal_homepage_assets/Qingcheng_CV_Mar2025.pdf)
 
 ## Education
   
