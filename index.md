@@ -12,7 +12,7 @@ Recently, I am mainly interested in the following research areas:
 - **Evaluating multilingual LLMs**
 - **Understanding LLMs through the lens of cognitive science**
 
-[[Google Scholar]](https://scholar.google.com/citations?user=i0K71KQAAAAJ&hl) [[Twitter]](https://twitter.com/SteveZeng7) [[CV]](/personal_homepage_assets/Qingcheng_CV_Mar2025.pdf)
+[[Google Scholar]](https://scholar.google.com/citations?user=i0K71KQAAAAJ&hl) [[Twitter]](https://twitter.com/SteveZeng7) [[CV]](/personal_homepage_assets/Qingcheng_CV_July2025.pdf)
 
 ## Education
   
@@ -30,7 +30,7 @@ Recently, I am mainly interested in the following research areas:
   
 
 ## Publications
-Check my [[CV]](/personal_homepage_assets/Qingcheng_CV_Feb2025.pdf) or [[Google Scholar]](https://scholar.google.com/citations?user=i0K71KQAAAAJ&hl) for my most recent publications.
+Check my [[CV]](/personal_homepage_assets/Qingcheng_CV_July2025.pdf) or [[Google Scholar]](https://scholar.google.com/citations?user=i0K71KQAAAAJ&hl) for my most recent publications.
   
 ## Personal
 When I am not doing computational linguistics and NLP, I enjoy jogging, cooking Chinese food, and playing guitar.
