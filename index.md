@@ -7,10 +7,9 @@ layout: default
 Hello! My name is Qingcheng Zeng (曾庆诚), and I also go by Steve. Currently, I am a third-year PhD student affiliated with [*Computation and Linguistic Mechanisms Lab*](https://sites.northwestern.edu/lingmechlab/) and [*Reliable, Efficient, and Autonomous Learning (REAL) Lab*](https://kaize0409.github.io/Advising.html) at Northwestern University, working with Professor [Rob Voigt](https://faculty.wcas.northwestern.edu/robvoigt/) and Professor [Kaize Ding](https://kaize0409.github.io/) on **Large Language Models, Computational Linguistics, and Computational Social Science.**
 
 Recently, I am mainly interested in the following research areas:
+- **Understanding LLMs through the lens of Cognitive Science**
 - **LLMs for Computational Social Science**
 - **Trustworthy LLMs, Uncertainty Quantification, Calibration**
-- **Evaluating multilingual LLMs**
-- **Understanding LLMs through the lens of cognitive science**
 
 [[Google Scholar]](https://scholar.google.com/citations?user=i0K71KQAAAAJ&hl) [[Twitter]](https://twitter.com/SteveZeng7) [[CV]](/personal_homepage_assets/Qingcheng_CV_Aug2025.pdf)
 
