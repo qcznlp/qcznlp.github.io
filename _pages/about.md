@@ -6,23 +6,25 @@ subtitle:
 
 profile:
   align: right
-  image: prof_pic2.jpg
+  image: photo.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
-selected_papers_title: "selected works"  # Custom title
+selected_papers_title: "Selected Works"  # Custom title
 social: true  # includes social icons at the bottom of the page
 selected_talks: true
 ---
-I'm a 4th-year PhD student in Computer Science at UCLA. I am fortunate to be advised by Professor [Aditya Grover](https://aditya-grover.github.io/). 
+I am a 4th-year PhD student in Computational Linguistics at Northwestern University, fortunate to be advised by [Rob Voigt](https://robvoigt.faculty.ucdavis.edu/) and [Kaize Ding](https://kaize0409.github.io/).
 
-My primary research interest lies in endowing machines with human-like reasoning and efficiency. My recent research focuses on:
+My research focuses on **trustworthy LLMs** and **using LLMs as tools for understanding and improving society**. Recent topics include:
 
-- Understanding and scaling (diffusion) LLM reasoning via RL — [d1](https://x.com/siyan_zhao/status/1910814716869710229), [IGPO](https://arxiv.org/abs/2509.10396), and [probing in-context learning](https://x.com/siyan_zhao/status/1805277462890492321).
-- Efficient preference alignment & personalization — [GPO](https://siyan-zhao.github.io/llm-gpo/), [PrefEval](https://prefeval.github.io/).
-- LLM inference efficiency & modular design for RL — [Prepacking](https://x.com/siyan_zhao/status/1780288750624612850), [Decision Stacks](https://siyan-zhao.github.io/decision-stacks/).
+- **Verbalized confidence and calibration**: [arXiv 2026](https://arxiv.org/abs/2601.07264), [EMNLP 2025a](https://aclanthology.org/2025.emnlp-main.73/), [EMNLP 2025b](https://aclanthology.org/2025.emnlp-main.74/)
+- **Information retrieval and search**: [arXiv 2026](https://arxiv.org/abs/2601.07264), [Findings of EACL 2026](https://arxiv.org/abs/2507.22050), [CIKM 2025](https://dl.acm.org/doi/abs/10.1145/3746252.3760818)
+- **Computational social science**: [EMNLP 2024](https://aclanthology.org/2024.emnlp-main.872/), [EACL 2026](https://arxiv.org/abs/2505.18497), [SSRN 2025](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5259107), [Findings of AACL 2025](https://arxiv.org/abs/2501.09950)
 
-Prior to UCLA, I obtained my bachelor's degree from the Engineering Science (Machine Intelligence program) at the University of Toronto. Before my PhD, I worked on 3D perception and RL algorithms for autonomous driving agents.
+I also work on biomedical NLP, LLMs and cognitive science, and multilingual NLP.
+
+Prior to Northwestern, I received my bachelor's degree from Zhejiang University and the University of Manchester, with a focus on linguistics and formal logic. During my undergraduate studies, I worked extensively on speech processing.

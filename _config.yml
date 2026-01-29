@@ -2,11 +2,11 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Siyan Zhao # the website title (if blank, full name will be used instead)
-first_name: Siyan
+title: Qingcheng # the website title (if blank, full name will be used instead)
+first_name: Qingcheng
 middle_name: 
-last_name: Zhao
-email: siyanz@g.ucla.edu
+last_name: Zeng
+email: qingchengzeng2027@u.northwestern.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
@@ -17,7 +17,7 @@ keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🤖 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-url: https://siyan-zhao.github.io # the base hostname & protocol for your site
+url: https://qcznlp.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
@@ -62,13 +62,13 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: # your GitHub user name
+github_username: qcznlp # your GitHub user name
 gitlab_username: # your GitLab user name
-twitter_username: siyan_zhao # your Twitter handle
+twitter_username: SteveZeng7 # your Twitter handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
-linkedin_username: siyanzhao # your LinkedIn user name
+linkedin_username: # your LinkedIn user name
 telegram_username: # your Telegram user name
-scholar_userid: Q7c4FaYAAAAJ# your Google Scholar ID
+scholar_userid: i0K71KQAAAAJ# your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
 orcid_id: # your ORCID ID
@@ -99,13 +99,13 @@ zotero_username: # your zotero username
 wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 
 contact_note: >
-  Contact email: siyanz@g.ucla.edu
+  Contact email: qingchengzeng2027@u.northwestern.edu
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
 # -----------------------------------------------------------------------------
 
-google_analytics: G-9P289P4QZ7 # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
+google_analytics: # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
 cronitor_analytics:  # cronitor RUM analytics site ID (format: XXXXXXXXX)
 
 google_site_verification:  # your google-site-verification ID (Google Search Console)
@@ -271,8 +271,8 @@ display_categories: [] # these categories will be displayed on the front page of
 
 scholar:
 
-  last_name: [Zhao]
-  first_name: [Siyan]
+  last_name: [Zeng]
+  first_name: [Qingcheng]
 
   style: apa
   locale: en
@@ -356,7 +356,7 @@ jekyll-diagrams:
 # Optional Features
 # -----------------------------------------------------------------------------
 
-enable_google_analytics:    true  # enables google analytics
+enable_google_analytics: false  # enables google analytics
 enable_cronitor_analytics: false  # enables cronitor RUM analytics
 enable_google_verification: false  # enables google site verification
 enable_bing_verification:   false  # enables bing site verification
