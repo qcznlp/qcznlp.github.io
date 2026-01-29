@@ -1,0 +1,81 @@
+<div class="talks">
+  {% assign talks = site.talks | sort: 'date' | reverse %}
+  {% for talk in talks %}
+    <div class="talk-item">
+      <div class="talk-header">
+        <h5>{{ talk.title }}</h5>
+        {% if talk.slides %}
+          <a href="{{ talk.slides | relative_url }}" target="_blank" class="btn btn-sm btn-outline-primary">
+            📄 Slides
+          </a>
+        {% endif %}
+      </div>
+      
+      <div class="talk-venues">
+        {% for venue in talk.venues %}
+          <div class="venue-item">
+            <span class="venue-date">{{ venue.date }}</span>
+            <span class="venue-name">
+              {% if venue.url %}
+                <a href="{{ venue.url }}">{{ venue.name }}</a>
+              {% else %}
+                {{ venue.name }}
+              {% endif %}
+            </span>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  {% endfor %}
+</div>
+
+<style>
+.talks {
+  max-width: 800px;
+}
+
+.talk-item {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.talk-item:last-child {
+  border-bottom: none;
+}
+
+.talk-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  gap: 1rem;
+}
+
+.talk-header h5 {
+  margin: 0;
+  flex: 1;
+}
+
+.talk-venues {
+  margin-left: 1.5rem;
+}
+
+.venue-item {
+  margin-bottom: 0.3rem;
+}
+
+.venue-date {
+  font-weight: 500;
+  color: #666;
+  margin-right: 0.75rem;
+}
+
+.venue-name a {
+  text-decoration: none;
+}
+
+.venue-name a:hover {
+  text-decoration: underline;
+}
+</style>
