@@ -17,7 +17,7 @@ selected_papers_title: "Selected Works"  # Custom title
 social: true  # includes social icons at the bottom of the page
 selected_talks: true
 ---
-I am a 4th-year PhD student in Computational Linguistics at Northwestern University, fortunate to be advised by [Rob Voigt](https://robvoigt.faculty.ucdavis.edu/) and [Kaize Ding](https://kaize0409.github.io/).
+I am a 4th-year PhD student focusing on LLMs and computational linguistics at Northwestern University, fortunate to be advised by [Rob Voigt](https://robvoigt.faculty.ucdavis.edu/) and [Kaize Ding](https://kaize0409.github.io/).
 
 My research focuses on **trustworthy LLMs** and **using LLMs as tools for understanding and improving society**. Recent topics include:
 
