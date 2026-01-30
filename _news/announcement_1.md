@@ -1,8 +1,7 @@
 ---
 layout: post
-date: 2026-01-29
+date: 2026-01-03
 inline: true
 related_posts: false
 ---
-
-Welcome to my new personal website! 🎉
+Two papers accepted at [EACL 2026](https://2026.eacl.org/).
