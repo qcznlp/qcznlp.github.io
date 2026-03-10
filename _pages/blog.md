@@ -2,7 +2,7 @@
 layout: page
 permalink: /blog/
 title: Blog
-description: I am writing blogs!!
+description:
 nav: false
 nav_order: 2
 ---

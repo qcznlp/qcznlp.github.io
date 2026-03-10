@@ -3,8 +3,8 @@ layout: post
 title: Playing with PyLate in Instruction Information Retrieval
 date: 2026-03-10 10:00:00-0500
 description: Does ColBERT show better results in instruction following information retrieval?
-tags: [jekyll, blog]
-categories: [IR]
+tags: [blog]
+categories: [Information Retrieval]
 toc: true
 related_posts: false
 giscus_comments: false
