@@ -19,6 +19,17 @@ selected_talks: true
 ---
 I am a 4th-year PhD Candidate focusing on LLMs and computational linguistics at Northwestern University, fortunate to be advised by [Rob Voigt](https://robvoigt.faculty.ucdavis.edu/) and [Kaize Ding](https://kaize0409.github.io/).
 
+<div class="job-market-note">
+  <p class="job-market-note-label">Industry Job Market</p>
+  <p>
+    <strong>I am looking for full-time Research Scientist / Research Engineer roles</strong>
+    in the US and China, focused on LLMs, information retrieval, or AI agents.
+    <a href="{{ site.cv_pdf | prepend: 'assets/pdf/' | relative_url }}">CV</a>
+    ·
+    <a href="mailto:{{ site.email }}">Email</a>
+  </p>
+</div>
+
 My research focuses on **trustworthy LLMs** and **using LLMs as tools for understanding and improving society**. Recent topics include:
 
 - **Verbalized confidence and calibration**: [arXiv 2026](https://arxiv.org/abs/2601.07264), [EMNLP 2025a](https://aclanthology.org/2025.emnlp-main.73/), [EMNLP 2025b](https://aclanthology.org/2025.emnlp-main.74/)
