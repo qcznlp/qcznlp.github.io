@@ -20,10 +20,10 @@ selected_talks: true
 I am a 4th-year PhD Candidate focusing on LLMs and computational linguistics at Northwestern University, fortunate to be advised by [Rob Voigt](https://robvoigt.faculty.ucdavis.edu/) and [Kaize Ding](https://kaize0409.github.io/).
 
 <div class="job-market-note">
-  <p class="job-market-note-label">Industry Job Market</p>
   <p>
-    <strong>I am looking for full-time Research Scientist / Research Engineer roles</strong>
-    in the US and China, focused on LLMs, information retrieval, or AI agents.
+    <strong>I am currently on the industry job market</strong> and am looking for
+    full-time Research Scientist / Research Engineer roles in the US and China,
+    focused on LLMs, information retrieval, or AI agents.
     <a href="{{ site.cv_pdf | prepend: 'assets/pdf/' | relative_url }}">CV</a>
     ·
     <a href="mailto:{{ site.email }}">Email</a>

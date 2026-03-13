@@ -35,33 +35,28 @@ body.sticky-bottom-footer {
 
 .job-market-note {
   margin: 1.2rem 0 1.6rem;
-  padding: 1rem 1.1rem;
-  border: 1px solid var(--global-divider-color);
-  border-left: 4px solid var(--global-theme-color);
-  border-radius: 10px;
-  background-color: var(--global-card-bg-color);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.04);
+  padding: 1rem 1.15rem;
+  border: 1px solid #991b1b;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #991b1b 0%, #b91c1c 45%, #dc2626 100%);
+  box-shadow: 0 14px 32px rgba(185, 28, 28, 0.22);
+  color: #fff;
 
   p {
     margin: 0;
+    line-height: 1.6;
   }
 
   a {
     font-weight: 600;
+    color: #fff;
+    text-decoration: underline;
+    text-decoration-color: rgba(255, 255, 255, 0.7);
   }
-}
 
-.job-market-note-label {
-  display: inline-block;
-  margin-bottom: 0.45rem !important;
-  padding: 0.18rem 0.5rem;
-  border-radius: 999px;
-  background-color: var(--global-theme-color);
-  color: #fff;
-  font-size: 0.72rem;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
+  strong {
+    color: #fff;
+  }
 }
 
 // TODO: redefine content layout.
