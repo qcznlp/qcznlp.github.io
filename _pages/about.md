@@ -30,11 +30,11 @@ I am a 4th-year PhD Candidate focusing on LLMs and computational linguistics at 
   </p>
 </div>
 
-My research focuses on **trustworthy LLMs** and **using LLMs as tools for understanding and improving society**. Recent topics include:
+My research focuses on **Agent Evaluation**, **Agentic RL**, and **Information Retrieval**. Recent topics include:
 
-- **Verbalized confidence and calibration**: [arXiv 2026](https://arxiv.org/abs/2601.07264), [EMNLP 2025a](https://aclanthology.org/2025.emnlp-main.73/), [EMNLP 2025b](https://aclanthology.org/2025.emnlp-main.74/)
-- **Information retrieval and search**: [arXiv 2026](https://arxiv.org/abs/2601.07264), [Findings of EACL 2026](https://arxiv.org/abs/2507.22050), [CIKM 2025](https://dl.acm.org/doi/abs/10.1145/3746252.3760818)
-- **Computational social science**: [EMNLP 2024](https://aclanthology.org/2024.emnlp-main.872/), [EACL 2026](https://arxiv.org/abs/2505.18497), [SSRN 2025](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5259107), [Findings of AACL 2025](https://arxiv.org/abs/2501.09950)
+- **Agent Evaluation**: [arXiv 2026](https://arxiv.org/abs/2606.15345), [arXiv 2026](https://arxiv.org/abs/2606.05104)
+- **Agentic RL**: [ACL 2026](https://aclanthology.org/2026.acl-long.520/), [Findings of ACL 2026](https://aclanthology.org/2026.findings-acl.1974/)
+- **Information Retrieval**: [Findings of ACL 2026](https://aclanthology.org/2026.findings-acl.636/), [arXiv 2026](https://arxiv.org/abs/2604.18845)
 
 I also work on biomedical NLP, LLMs and cognitive science, and multilingual NLP.
 
