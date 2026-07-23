@@ -1,6 +1,12 @@
 ---
 ---
 
+% Optional publication buttons can be added to any entry with these fields:
+%   pdf     = {paper-file.pdf},                         % local file in assets/pdf/
+%   pdf     = {https://example.com/paper.pdf},          % or an external URL
+%   code    = {https://github.com/owner/repository},
+%   dataset = {https://huggingface.co/datasets/owner/dataset},
+
 % =============================================================================
 % 2026
 % =============================================================================
@@ -13,7 +19,10 @@
       archivePrefix={arXiv},
       primaryClass={cs.CL},
       url={https://arxiv.org/abs/2606.15345},
-      selected={true}
+      selected={true},
+      pdf={https://arxiv.org/pdf/2606.15345.pdf},
+      code={https://github.com/paddler2022/XBCP},
+      dataset={https://huggingface.co/datasets/UTokyo-Yokoya-Lab/XBCP},
 }
 
 @misc{jin2026knowledgeindexnoahsark,
@@ -25,7 +34,10 @@
       archivePrefix={arXiv},
       primaryClass={cs.AI},
       url={https://arxiv.org/abs/2606.05104},
-      selected={false}
+      selected={false},
+      pdf={https://arxiv.org/pdf/2606.05104.pdf},
+      code={https://github.com/2077AI/KINA},
+      dataset={https://huggingface.co/datasets/2077AIDataFoundation/KINA},
 }
 
 @misc{zeng2026dualviewtraininginstructionfollowinginformation,
@@ -37,7 +49,8 @@
       archivePrefix={arXiv},
       primaryClass={cs.IR},
       url={https://arxiv.org/abs/2604.18845},
-      selected={true}
+      selected={true},
+      pdf={https://arxiv.org/pdf/2604.18845.pdf},
 }
 
 @misc{jin2026farthershiftsparserrepresentation,
@@ -49,7 +62,9 @@
       archivePrefix={arXiv},
       primaryClass={cs.CL},
       url={https://arxiv.org/abs/2603.03415},
-      selected={false}
+      selected={false},
+      pdf={https://arxiv.org/pdf/2603.03415.pdf},
+      code={https://github.com/MingyuJ666/sparsityLLM},
 }
 
 @inproceedings{li-etal-2026-verified,
@@ -76,7 +91,9 @@
     pages = "39627--39639",
     ISBN = "979-8-89176-395-1",
     abstract = "As large language model agents tackle increasingly complex long-horizon tasks, effective post-training becomes critical. Prior work faces fundamental challenges: outcome-only rewards fail to precisely attribute credit to intermediate steps, estimated step-level rewards introduce systematic noise, and Monte Carlo sampling approaches for step reward estimation incur prohibitive computational cost. Inspired by findings that only a small fraction of high-entropy tokens drive effective RL for reasoning, we propose Critical Step Optimization (CSO), which focuses preference learning on verified critical steps{---}decision points where alternate actions demonstrably flip task outcomes from failure to success. Crucially, our method starts from failed policy trajectories rather than expert demonstrations, directly targeting the policy model{'}s weaknesses. We use a process reward model (PRM) to identify candidate critical steps, leverage expert models to propose high-quality alternatives, then continue execution from these alternatives using the policy model itself until task completion. Only alternatives that the policy successfully executes to correct outcomes are verified and used as DPO training data, ensuring both quality and policy reachability. This yields fine-grained, verifiable supervision at critical decisions while avoiding trajectory-level coarseness and step-level noise. Experiments on GAIA-Text-103 and XBench-DeepSearch show that CSO achieves 37{\%} and 26{\%} relative improvement over the SFT baseline and substantially outperforms other post-training methods, while requiring supervision at only 16{\%} of trajectory steps. This demonstrates the effectiveness of selective verification-based learning for agent post-training.",
-    selected = {true}
+    selected = {true},
+    pdf = {https://aclanthology.org/2026.findings-acl.1974.pdf},
+    code = {https://github.com/kiaia/CSO},
 }
 
 @inproceedings{shi-etal-2026-improve,
@@ -99,7 +116,8 @@
     pages = "15139--15164",
     ISBN = "979-8-89176-390-6",
     abstract = "Large language models (LLMs) exhibit uneven performance across languages. In language-specific applications, practitioners often rely on target-language corpora or cross-lingual transfer to achieve better performance. However, traditional linguistic typology, commonly used as a transfer language selection strategy in previous studies, may not align with LLM{'}s perception of language similarity. This work proposes **LLM-based language similarity** as a novel perspective for selecting effective fine-tuning languages. We construct a framework to quantify the similarity within each language pair through both the lenses of **language-specific performance patterns** and **cross-lingual transferability**, ultimately deriving three similarity score matrices. Moreover, we observe a counter-intuitive phenomenon: **super-additive transfer effect**, where fine-tuning on a certain language yields higher performance than fine-tuning directly on the target language. Additionally, due to the absence of an existing dataset meeting our experimental requirements, we construct and release **M4CQ-Pro** dataset, which features domain-diverse distribution of **135** tasks and content consistency across **31** languages (including over 20 medium- and low-resource languages), with 61518 manually reviewed high-quality questions per language. We evaluate our approach on representative multilingual LLMs and results show that all three LLM-based similarity measures effectively guide fine-tuning language selection, outperforming traditional linguistic similarity, with the integrated measure achieving the best results. Our approach provides not only **a novel perspective on language similarity**, but also **practical baselines for selecting fine-tuning languages**.",
-    selected = {false}
+    selected = {false},
+    pdf = {https://aclanthology.org/2026.acl-long.691.pdf},
 }
 
 @inproceedings{ning-etal-2026-effect,
@@ -123,7 +141,9 @@
     pages = "41863--41880",
     ISBN = "979-8-89176-390-6",
     abstract = "Training language models and examining their linguistic behaviors have been a common protocol in computational linguistics for studying linguistic phenomena and modeling human language processing. However, work in this area is often limited to proof-of-concept demonstrations with arbitrary model configurations, without considering hyperparameter sensitivity, an important source of variation in model performance. In this work, we replicate three prior studies (Chang and Bergen, 2022; Hu et al., 2020b; Kuribayashi et al., 2024) with hyperparameters varied within a practical range, and show that modest hyperparameter changes can alter some qualitative conclusions about models' linguistic abilities and even reverse the ranking of model performance. Our results highlight the risk that prior work may have reflected optimization artifacts rather than the genuine inductive biases of model classes, and that hyperparameter sensitivity should receive more attention as a factor that can meaningfully influence model behavior. We suggest future work to report the variation of performance across the configuration space to enhance the reliability and generalizability of conclusions. Code: https://github.com/compling-wat/tune-linguistic-lms.",
-    selected = {false}
+    selected = {false},
+    pdf = {https://aclanthology.org/2026.acl-long.1939.pdf},
+    code = {https://github.com/compling-wat/tune-linguistic-lms},
 }
 
 @inproceedings{xuan-etal-2026-confidence,
@@ -148,7 +168,8 @@
     pages = "11325--11349",
     ISBN = "979-8-89176-390-6",
     abstract = "Autonomous agents based on large language models (LLMs) are rapidly evolving to handle multi-turn tasks, but ensuring their trustworthiness remains a critical challenge. A fundamental pillar of this trustworthiness is calibration, which refers to an agent{'}s ability to express confidence that reliably reflects its actual performance. While calibration is well-established for static models, its dynamics in tool-integrated agentic workflows remain under-explored. In this work, we systematically investigate verbalized calibration in tool-use agents, revealing a fundamental confidence dichotomy driven by tool type. Specifically, our pilot study identifies that evidence tools (e.g., web search) systematically induce severe overconfidence due to inherent noise in retrieved information, while verification tools (e.g., code interpreters) can ground reasoning through deterministic feedback and mitigate miscalibration. To robustly improve calibration across tool types, we propose a reinforcement learning (RL) fine-tuning framework that jointly optimizes task accuracy and calibration, supported by a holistic benchmark of reward designs. We demonstrate that our trained agents not only achieve superior calibration but also exhibit robust generalization from local training environments to noisy web settings and to distinct domains such as mathematical reasoning. Our results highlight the necessity of domain-specific calibration strategies for tool-use agents. More broadly, this work establishes a foundation for building self-aware agents that can reliably communicate uncertainty in high-stakes, real-world deployments.",
-    selected = {true}
+    selected = {true},
+    pdf = {https://aclanthology.org/2026.acl-long.520.pdf},
 }
 
 @inproceedings{zeng-etal-2026-code,
@@ -176,7 +197,10 @@
     pages = "13055--13071",
     ISBN = "979-8-89176-395-1",
     abstract = "Code-switching is a pervasive linguistic phenomenon in global communication, yet modern information retrieval systems remain predominantly designed for, and evaluated within, monolingual contexts. To bridge this critical disconnect, we present a holistic study dedicated to code-switching IR. We introduce CSR-L (Code-Switching Retrieval benchmark-Lite), constructing a dataset via human annotation to capture the authentic naturalness of mixed-language queries. Our evaluation across statistical, dense, and late-interaction paradigms reveals that code-switching acts as a fundamental performance bottleneck, degrading the effectiveness of even robust multilingual models. We demonstrate that this failure stems from substantial divergence in the embedding space between pure and code-switched text. Scaling this investigation, we propose CS-MTEB, a comprehensive benchmark covering 11 diverse tasks, where we observe performance declines of up to 27{\%}. Finally, we show that standard multilingual techniques like vocabulary expansion are insufficient to resolve these deficits completely. These findings underscore the fragility of current systems and establish code-switching as a crucial frontier for future IR optimization.",
-    selected = {true}
+    selected = {true},
+    pdf = {https://aclanthology.org/2026.findings-acl.636.pdf},
+    code = {https://github.com/paddler2022/Code-Switching-Information-Retrieval},
+    dataset = {https://huggingface.co/collections/UTokyo-Yokoya-Lab/cs-mteb},
 }
 
 @misc{gao2026raptorridgeadaptivelogisticprobes,
@@ -188,7 +212,8 @@
   archivePrefix = {arXiv},
   primaryClass = {cs.LG},
   url       = {https://arxiv.org/abs/2602.00158},
-  selected  = {false}
+  selected  = {false},
+  pdf       = {https://arxiv.org/pdf/2602.00158.pdf},
 }
 
 @inproceedings{yu-etal-2026-pragmatic,
@@ -213,7 +238,10 @@
     pages = "192--213",
     ISBN = "979-8-89176-380-7",
     abstract = "Current large language models (LLMs) have demonstrated emerging capabilities in social intelligence tasks, including implicature resolution and theory-of-mind reasoning, both of which require substantial pragmatic understanding. However, how LLMs acquire this pragmatic competence throughout the training process remains poorly understood. In this work, we introduce ALTPRAG, a dataset grounded in the pragmatic concept of alternatives, to evaluate whether LLMs at different training stages can accurately infer nuanced speaker intentions. Each instance pairs two equally plausible yet pragmatically divergent continuations and requires the model to (i) infer the speaker{'}s intended meaning and (ii) explain when and why a speaker would choose one utterance over its alternative, thus directly probing pragmatic competence through contrastive reasoning. We systematically evaluate 22 LLMs across three key training stages: after pre-training, supervised fine-tuning (SFT), and preference optimization, to examine the development of pragmatic competence. Our results show that even base models exhibit notable sensitivity to pragmatic cues, which improves consistently with increases in model and data scale. Additionally, SFT and RLHF contribute further gains, particularly in cognitive-pragmatic scenarios. These findings highlight pragmatic competence as an emergent and compositional property of LLM training and offer new insights for aligning models with human communicative norms.",
-    selected = {true}
+    selected = {true},
+    pdf = {https://aclanthology.org/2026.eacl-long.9.pdf},
+    code = {https://github.com/Huangtubaye233/PragmaticsLLM},
+    dataset = {https://huggingface.co/datasets/Huangtubaye233/AltPrag},
 }
 
 @inproceedings{guo-etal-2026-deepsieve,
@@ -240,7 +268,9 @@
     pages = "3054--3077",
     ISBN = "979-8-89176-386-9",
     abstract = "Large Language Models (LLMs) excel at many reasoning tasks but struggle with knowledge-intensive queries due to their inability to dynamically access up-to-date or domain-specific information. Retrieval-Augmented Generation (RAG) has emerged as a promising solution, enabling LLMs to ground their responses in external sources. However, existing RAG methods lack fine-grained control over both the query and source sides, often resulting in noisy retrieval and shallow reasoning. In this work, we introduce \textit{\textbf{DeepSieve}}, an agentic RAG framework that incorporates information sieving via LLM-as-a-knowledge-router. DeepSieve decomposes complex queries into structured sub-questions and recursively routes each to the most suitable knowledge source, filtering irrelevant information through a multi-stage distillation process. Our design emphasizes modularity, transparency, and adaptability, leveraging recent advances in agentic system design. Experiments on multi-hop QA tasks across heterogeneous sources demonstrate improved reasoning depth, retrieval precision, and interpretability over conventional RAG approaches.",
-    selected = {false}
+    selected = {false},
+    pdf = {https://aclanthology.org/2026.findings-eacl.160.pdf},
+    code = {https://github.com/MinghoKwok/DeepSieve},
 }
 
 @misc{liu2026novanoiseawareverbalconfidence,
@@ -252,7 +282,8 @@
       archivePrefix={arXiv},
       primaryClass={cs.CL},
       url={https://arxiv.org/abs/2601.11004},
-      selected={false}
+      selected={false},
+      pdf={https://arxiv.org/pdf/2601.11004.pdf},
 }
 
 @misc{yang2026globallargelanguagemodels,
@@ -264,7 +295,8 @@
   archivePrefix = {arXiv},
   primaryClass = {cs.CL},
   url       = {https://arxiv.org/abs/2601.02186},
-  selected  = {false}
+  selected  = {false},
+  pdf       = {https://arxiv.org/pdf/2601.02186.pdf},
 }
 
 % =============================================================================
@@ -284,7 +316,8 @@
   doi       = {10.18653/v1/2025.emnlp-main.73},
   pages     = {1394--1407},
   abstract  = {Large reasoning models (LRMs) have recently demonstrated impressive capabilities in complex reasoning tasks by leveraging increased test-time computation and exhibiting behaviors reminiscent of human-like self-reflection. While LRMs show a clear capacity for valuable self-reflection, how this ability interacts with other model behaviors remains underexplored. We investigate this connection by analyzing verbalized confidence, how models articulate their certainty, as a lens into the nature of self-reflection in LRMs. We find that supervised fine-tuning on reasoning traces (i.e., distillation) and reinforcement learning can improve verbalized calibration in reasoning-intensive settings in a progressive, laddered fashion. However, our results also indicate that reasoning models may possess a diminished awareness of their own knowledge boundaries, as evidenced by significantly lower "I don't know" response rates on factuality benchmarks. Moreover, we examine the relationship between verbalized confidence and reasoning chains, finding that models tend to express higher confidence when providing shorter or less elaborate reasoning. Our findings highlight how reasoning-oriented training can enhance performance in reasoning-centric tasks while potentially incurring a reasoning tax, a cost reflected in the model's reduced ability to accurately recognize the limits of its own knowledge in small-scale models. More broadly, our work showcases how this erosion of knowledge boundaries can compromise model faithfulness, as models grow more confident without a commensurate understanding of when they should abstain.},
-  selected  = {true}
+  selected  = {true},
+  pdf       = {https://aclanthology.org/2025.emnlp-main.73.pdf},
 }
 
 @inproceedings{xuan-etal-2025-seeing,
@@ -300,7 +333,8 @@
   doi       = {10.18653/v1/2025.emnlp-main.74},
   pages     = {1408--1450},
   abstract  = {Uncertainty quantification is essential for assessing the reliability and trustworthiness of modern AI systems. Among existing approaches, verbalized uncertainty, where models express their confidence through natural language, has emerged as a lightweight and interpretable solution in large language models (LLMs). However, its effectiveness in vision-language models (VLMs) remains insufficiently studied. In this work, we conduct a comprehensive evaluation of verbalized confidence in VLMs, spanning three model categories, four task domains, and three evaluation scenarios. Our results show that current VLMs often display notable miscalibration across diverse tasks and settings. Notably, visual reasoning models (i.e., thinking with images) consistently exhibit better calibration, suggesting that modality-specific reasoning is critical for reliable uncertainty estimation. To further address calibration challenges, we introduce Visual Confidence-Aware Prompting, a two-stage prompting strategy that improves confidence alignment in multimodal settings. Overall, our study highlights the inherent miscalibration in VLMs across modalities. More broadly, our findings underscore the fundamental importance of modality alignment and model faithfulness in advancing reliable multimodal systems.},
-  selected  = {true}
+  selected  = {true},
+  pdf       = {https://aclanthology.org/2025.emnlp-main.74.pdf},
 }
 
 @inproceedings{xuan-etal-2025-mmlu,
@@ -316,7 +350,10 @@
   doi       = {10.18653/v1/2025.emnlp-main.79},
   pages     = {1513--1532},
   abstract  = {Existing large language model (LLM) evaluation benchmarks primarily focus on English, while current multilingual tasks lack parallel questions that specifically assess cross-lingual reasoning abilities. This dual limitation makes it challenging to assess LLMs' performance in the multilingual setting comprehensively. To fill this gap, we introduce MMLU-ProX, a comprehensive benchmark covering 29 languages, built on an English benchmark. Each language version consists of 11,829 identical questions, enabling direct cross-lingual comparisons. Additionally, to meet efficient evaluation needs, we provide a lite version containing 658 questions per language. To ensure the high quality of MMLU-ProX, we employ a rigorous development process that involves multiple powerful LLMs for translation, followed by expert review to ensure accurate expression, consistent terminology, and cultural relevance. Building on this, we systematically evaluate 36 state-of-the-art LLMs, including reasoning-enhanced and multilingual-optimized LLMs. The results reveal significant disparities in the multilingual capabilities of LLMs: While they perform well in high-resource languages, their performance declines markedly in low-resource languages, particularly for African languages. Through MMLU-ProX, we aim to advance the development of more inclusive AI systems and promote equitable access to technology across global contexts.},
-  selected  = {false}
+  selected  = {false},
+  pdf       = {https://aclanthology.org/2025.emnlp-main.79.pdf},
+  code      = {https://mmluprox.github.io},
+  dataset  = {https://huggingface.co/datasets/li-lab/MMLU-ProX},
 }
 
 @inproceedings{lefevre-etal-2025-good,
@@ -332,7 +369,8 @@
   doi       = {10.18653/v1/2025.emnlp-main.259},
   pages     = {5138--5150},
   abstract  = {The social impact of Natural Language Processing (NLP) is increasingly important, with a rising community focus on initiatives related to NLP for Social Good (NLP4SG). Indeed, in recent years, almost 20% of all papers in the ACL Anthology address topics related to social good as defined by the UN Sustainable Development Goals (Aduato et al. 2023). In this study, we take an author- and venue-level perspective to map the landscape of NLP4SG, quantifying the proportion of work addressing social good concerns both within and beyond the ACL community, by both core ACL contributors and non-ACL authors. With this approach we discover two surprising facts about the landscape of NLP4SG. First, ACL authors are dramatically more likely to do work addressing social good concerns when publishing in venues outside of ACL. Second, the vast majority of publications using NLP techniques to address concerns of social good are done by non-ACL authors in venues outside of ACL. We discuss the implications of these findings on agenda-setting considerations for the ACL community related to NLP4SG.},
-  selected  = {false}
+  selected  = {false},
+  pdf       = {https://aclanthology.org/2025.emnlp-main.259.pdf}
 }
 
 @inproceedings{10.1145/3746252.3760887,
@@ -349,7 +387,9 @@
   location  = {Seoul, Republic of Korea},
   series    = {CIKM '25},
   abstract  = {Multiple-choice question (MCQ) benchmarks such as MMLU and GPQA are widely used to assess the capabilities of large language models (LLMs). While accuracy remains the standard evaluation metric, recent work has introduced uncertainty quantification (UQ) methods, such as entropy, conformal prediction, and verbalized confidence, as complementary measures of model reliability and calibration. However, we find that these UQ methods, when applied to MCQ tasks, are unexpectedly fragile. Specifically, we show that fine-tuning a model on just 1,000 examples to adjust the probability of the first generated token, under the common prompting setup where the model is instructed to output only a single answer choice, can systematically distort a broad range of UQ methods across models, prompts, and domains, all while leaving answer accuracy unchanged. We validate this phenomenon through extensive experiments on five instruction-tuned LLMs, tested under standard prompting, zero-shot chain-of-thought reasoning, and a biomedical question answering setting. In all cases, models retain similar accuracy but exhibit significantly degraded calibration. These results suggest that current UQ practices for MCQs are "one-token deep", driven more by first-token decoding behavior than by any deeper representation of uncertainty, and are easily manipulated through minimal interventions. Our findings call for more robust and interpretable approaches to uncertainty estimation, particularly in structured formats like MCQs, where confidence signals are often reduced to token-level heuristics.},
-  selected  = {false}
+  selected  = {false},
+  pdf       = {https://dl.acm.org/doi/epdf/10.1145/3746252.3760887},
+  code      = {https://github.com/qcznlp/uncertainty_attack}
 }
 
 @inproceedings{10.1145/3746252.3760818,
@@ -366,7 +406,8 @@
   location  = {Seoul, Republic of Korea},
   series    = {CIKM '25},
   abstract  = {Dense retrievers and rerankers are central to retrieval-augmented generation (RAG) pipelines, where accurately retrieving factual information is crucial for maintaining system trustworthiness and defending against RAG poisoning. However, little is known about how much factual competence these components inherit or lose from the large language models (LLMs) they are based on. We pair 12 publicly released embedding checkpoints with their original base LLMs and evaluate both sets on a factuality benchmark. Across every model evaluated, the embedding variants achieve markedly lower accuracy than their bases, with absolute drops ranging from 12 to 43 percentage points (median 28 pts) and typical retriever accuracies collapsing into the 25-35% band versus the 60-70% attained by the generative models. This degradation intensifies under a more demanding condition: when the candidate pool per question is expanded from four options to one thousand, the strongest retriever's top-1 accuracy falls from 33% to 26%, revealing acute sensitivity to distractor volume. Statistical tests further show that, for every embedding model, cosine-similarity scores between queries and correct completions are significantly higher than those for incorrect ones (p < 0.01), indicating decisions driven largely by surface-level semantic proximity rather than factual reasoning. To probe this weakness, we employed GPT-4.1 to paraphrase each correct completion, creating a rewritten test set that preserved factual truth while masking lexical cues, and observed that over two-thirds of previously correct predictions flipped to wrong, reducing overall accuracy to roughly one-third of its original level. Taken together, these findings reveal a systematic trade-off introduced by contrastive learning for retrievers: gains in semantic retrieval are paid for with losses in parametric factual knowledge, and the resulting models remain highly vulnerable to adversarial or even benign rephrasings. Our study underscores the need for retrieval objectives that balance similarity with factual fidelity to safeguard next-generation RAG systems against both misinformation and targeted attacks.},
-  selected  = {false}
+  selected  = {false},
+  pdf       = {https://dl.acm.org/doi/epdf/10.1145/3746252.3760818},
 }
 
 @inproceedings{lam-etal-2025-leveraging,
@@ -382,7 +423,9 @@
   doi       = {10.18653/v1/2025.acl-short.14},
   pages     = {158--171},
   abstract  = {Whether large language models (LLMs) process language similarly to humans has been the subject of much theoretical and practical debate. We examine this question through the lens of the production-interpretation distinction found in human sentence processing and evaluate the extent to which instruction-tuned LLMs replicate this distinction. Using an empirically documented asymmetry between pronoun production and interpretation in humans for implicit causality verbs as a testbed, we find that some LLMs do quantitatively and qualitatively reflect human-like asymmetries between production and interpretation. We demonstrate that whether this behavior holds depends upon both model size-with larger models more likely to reflect human-like patterns and the choice of meta-linguistic prompts used to elicit the behavior. Our codes and results are available here.},
-  selected  = {false}
+  selected  = {false},
+  pdf       = {https://aclanthology.org/2025.acl-short.14.pdf},
+  code      = {https://github.com/LingMechLab/Production-Interpretation_Asymmetries_ACL2025}
 }
 
 @inproceedings{li-etal-2025-exploring-multilingual,
@@ -398,7 +441,8 @@
   doi       = {10.18653/v1/2025.xllm-1.7},
   pages     = {61--70},
   abstract  = {Probing techniques for large language models (LLMs) have primarily focused on English, overlooking the vast majority of other world's languages. In this paper, we extend these probing methods to a multilingual context, investigating how LLMs encode linguistic structures across diverse languages. We conduct experiments on several open-source LLM models, analyzing probing accuracy, trends across layers, and similarities between probing vectors for multiple languages. Our key findings reveal: (1) a consistent performance gap between high-resource and low-resource languages, with high-resource languages achieving significantly higher probing accuracy; (2) divergent layer-wise accuracy trends, where high-resource languages show substantial improvement in deeper layers similar to English; and (3) higher representational similarities among high-resource languages, with low-resource languages demonstrating lower similarities both among themselves and with high-resource languages. These results provide insights into how linguistic structures are represented differently across languages in LLMs and emphasize the need for improved structure modeling for low-resource languages.},
-  selected  = {false}
+  selected  = {false},
+  pdf       = {https://aclanthology.org/2025.xllm-1.7.pdf},
 }
 
 @inproceedings{jin-etal-2025-exploring,
@@ -413,7 +457,9 @@
   url       = {https://aclanthology.org/2025.coling-main.37/},
   pages     = {558--573},
   abstract  = {Large language models (LLMs) have shown remarkable performances across a wide range of tasks. However, the mechanisms by which these models encode tasks of varying complexities remain poorly understood. In this paper, we explore the hypothesis that LLMs process concepts of varying complexities in different layers, introducing the idea of "Concept Depth" to suggest that more complex concepts are typically acquired in deeper layers. Specifically, we categorize concepts based on their level of abstraction, defining them in the order of increasing complexity within factual, emotional, and inferential tasks. We conduct extensive probing experiments using layer-wise representations across various LLM families (Gemma, LLaMA, Qwen) on various datasets spanning the three domains of tasks. Our findings reveal that models could efficiently conduct probing for simpler tasks in shallow layers, and more complex tasks typically necessitate deeper layers for accurate understanding. Additionally, we examine how external factors, such as adding noise to the input and quantizing the model weights, might affect layer-wise representations. Our findings suggest that these factors can impede the development of a conceptual understanding of LLMs until deeper layers are explored. We hope that our proposed concept and experimental insights will enhance the understanding of the mechanisms underlying LLMs. Our codes are available at https://github.com/Luckfort/CD.},
-  selected  = {false}
+  selected  = {false},
+  pdf       = {https://aclanthology.org/2025.coling-main.37.pdf},
+  code      = {https://github.com/Luckfort/CD},
 }
 
 @article{doi:10.1177/13623613241304488,
@@ -459,7 +505,8 @@
     pages = "56--68",
     ISBN = "979-8-89176-303-6",
     abstract = "On July 13, 2024, an assassination attempt was made on Republican presidential candidate Donald Trump during a rally in Pennsylvania. This event triggered widespread discourses on social media platforms. In this study, we analyze posts from X (formerly Twitter) collected during the week preceding and following the incident to examine the short-term impact of this political shock on public opinion and discourse. Our investigation is guided by three central research questions. First (RQ1), we assess how public stance toward Donald Trump evolved over time and varied across geographic regions. Second (RQ2), we apply causal inference methods to determine whether the assassination attempt itself significantly influenced public attitudes, independent of pre-existing political alignments. Third (RQ3), we conduct topic modeling to identify shifts in dominant themes of online discussions before and after the event. Integrating large language model-based stance detection, difference-in-differences estimation, and topic modeling, our findings reveal a marked surge in sympathetic responses toward Trump in the immediate aftermath of the attempt, suggesting a unifying effect that temporarily transcended ideological and regional divides.",
-    selected  = {true}
+    selected  = {true},
+    pdf = {https://aclanthology.org/2025.findings-ijcnlp.4.pdf},
 }
 
 @article{heddaya2025century,
@@ -468,7 +515,8 @@
   author={Heddaya, Mourad and Tan, Chenhao and Voigt, Rob and Zeng, Qingcheng and Zentefis, Alexander},
   journal={Available at SSRN 5259107},
   year={2025},
-  selected  = {true}
+  selected  = {true},
+  url = {https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5259107},
 }
 
 @misc{tu2025positionhiddencostsmeasurement,
@@ -480,7 +528,8 @@
   archivePrefix = {arXiv},
   primaryClass = {cs.LG},
   url       = {https://arxiv.org/abs/2509.21882},
-  selected  = {false}
+  selected  = {false},
+  pdf       = {https://arxiv.org/pdf/2509.21882.pdf},
 }
 
 @misc{chen2025carescomprehensiveevaluationsafety,
@@ -492,7 +541,9 @@
   archivePrefix = {arXiv},
   primaryClass = {cs.CL},
   url       = {https://arxiv.org/abs/2505.11413},
-  selected  = {false}
+  selected  = {false},
+  pdf       = {https://arxiv.org/pdf/2505.11413.pdf},
+  dataset   = {https://huggingface.co/datasets/HFXM/CARES-18K},
 }
 
 @misc{schoenegger2025largelanguagemodelspersuasive,
@@ -504,7 +555,8 @@
   archivePrefix = {arXiv},
   primaryClass = {cs.CL},
   url       = {https://arxiv.org/abs/2505.09662},
-  selected  = {false}
+  selected  = {false},
+  pdf       = {https://arxiv.org/pdf/2505.09662.pdf},
 }
 
 @misc{huang2025thinkbenchdynamicoutofdistributionevaluation,
@@ -516,7 +568,9 @@
   archivePrefix = {arXiv},
   primaryClass = {cs.CL},
   url       = {https://arxiv.org/abs/2502.16268},
-  selected  = {false}
+  selected  = {false},
+  pdf       = {https://arxiv.org/pdf/2502.16268.pdf},
+  code      = {https://github.com/huangshulin123/ThinkBench},
 }
 
 @misc{liu2025veriguiverifiablelongchaingui,
@@ -528,7 +582,10 @@
   archivePrefix = {arXiv},
   primaryClass = {cs.HC},
   url       = {https://arxiv.org/abs/2508.04026},
-  selected  = {false}
+  selected  = {false},
+  pdf       = {https://arxiv.org/pdf/2508.04026.pdf},
+  dataset   = {https://huggingface.co/datasets/2077AIDataFoundation/VeriWeb},
+  code      = {https://github.com/VeriGUI-Team/VeriWeb},
 }
 
 @misc{xue2025equitableaccessleveragingcrowdsourced,
@@ -540,7 +597,8 @@
   archivePrefix = {arXiv},
   primaryClass = {cs.CL},
   url       = {https://arxiv.org/abs/2502.10641},
-  selected  = {false}
+  selected  = {false},
+  pdf       = {https://arxiv.org/pdf/2502.10641.pdf},
 }
 
 % =============================================================================
@@ -560,7 +618,9 @@
   doi       = {10.18653/v1/2024.emnlp-main.872},
   pages     = {15576--15593},
   abstract  = {Prior work has explored the possibility of using the semantic information obtained from embedding representations to quantify social stereotypes, leveraging techniques such as word embeddings combined with a list of traits (Garg et al., 2018; Charlesworth et al., 2022) or semantic axes (An et al., 2018; Lucy et al., 2022). However, these approaches have struggled to fully capture the variability in stereotypes across different conceptual domains for the same social group (e.g., black in science, health, and art), in part because the identity of a word and the associations formed during pre-training can dominate its contextual representation (Field and Tsvetkov, 2019). This study explores the ability to recover stereotypes from the contexts surrounding targeted entities by utilizing state-of-the-art text embedding models and adaptive semantic axes enhanced by large language models (LLMs). Our results indicate that the proposed pipeline not only surpasses token-based methods in capturing in-domain framing but also effectively tracks stereotypes over time and along domain-specific semantic axes for in-domain texts. Our research highlights the potential of employing text embedding models to achieve a deeper understanding of nuanced social stereotypes.},
-  selected  = {true}
+  selected  = {true},
+  pdf       = {https://aclanthology.org/2024.emnlp-main.872.pdf},
+  code      = {https://github.com/qcznlp/adaptive_axes},
 }
 
 @inproceedings{heddaya-etal-2024-causal,
@@ -576,7 +636,8 @@
   doi       = {10.18653/v1/2024.wnu-1.12},
   pages     = {67--84},
   abstract  = {We present a novel approach to classify causal micro-narratives from text. These narratives are sentence-level explanations of the cause(s) and/or effect(s) of a target subject. The approach requires only a subject-specific ontology of causes and effects, and we demonstrate it with an application to inflation narratives. Using a human-annotated dataset spanning historical and contemporary US news articles for training, we evaluate several large language models (LLMs) on this multi-label classification task. The best-performing model—a fine-tuned Llama 3.1 8B—achieves F1 scores of 0.87 on narrative detection and 0.71 on narrative classification. Comprehensive error analysis reveals challenges arising from linguistic ambiguity and highlights how model errors often mirror human annotator disagreements. This research establishes a framework for extracting causal micro-narratives from real-world data, with wide-ranging applications to social science research.},
-  selected  = {false}
+  selected  = {false},
+  pdf       = {https://aclanthology.org/2024.wnu-1.12.pdf},
 }
 
 @inproceedings{yang-etal-2024-kg,
@@ -592,7 +653,9 @@
   doi       = {10.18653/v1/2024.bionlp-1.13},
   pages     = {155--166},
   abstract  = {Large Language Models (LLMs) have significantly advanced healthcare innovation on generation capabilities. However, their application in real clinical settings is challenging due to potential deviations from medical facts and inherent biases. In this work, we develop an augmented LLM framework, KG-Rank, which leverages a medical knowledge graph (KG) with ranking and re-ranking techniques, aiming to improve free-text question-answering (QA) in the medical domain. Specifically, upon receiving a question, we initially retrieve triplets from a medical KG to gather factual information. Subsequently, we innovatively apply ranking methods to refine the ordering of these triplets, aiming to yield more precise answers. To the best of our knowledge, KG-Rank is the first application of ranking models combined with KG in medical QA specifically for generating long answers. Evaluation of four selected medical QA datasets shows that KG-Rank achieves an improvement of over 18% in the ROUGE-L score. Moreover, we extend KG-Rank to open domains, where it realizes a 14% improvement in ROUGE-L, showing the effectiveness and potential of KG-Rank.},
-  selected  = {false}
+  selected  = {false},
+  pdf       = {https://aclanthology.org/2024.bionlp-1.13.pdf},
+  code      = {https://github.com/ruiyang-medinfo/KG-Rank},
 }
 
 @inproceedings{gao-etal-2024-evaluating-large,
@@ -608,7 +671,9 @@
   doi       = {10.18653/v1/2024.findings-acl.321},
   pages     = {5405--5418},
   abstract  = {Educational materials such as survey articles in specialized fields like computer science traditionally require tremendous expert inputs and are therefore expensive to create and update. Recently, Large Language Models (LLMs) have achieved significant success across various general tasks. However, their effectiveness and limitations in the education domain are yet to be fully explored. In this work, we examine the proficiency of LLMs in generating succinct survey articles specific to the niche field of NLP in computer science, focusing on a curated list of 99 topics. Automated benchmarks reveal that GPT-4 surpasses its predecessors, inluding GPT-3.5, PaLM2, and LLaMa2 by margins ranging from 2% to 20% in comparison to the established ground truth. We compare both human and GPT-based evaluation scores and provide in-depth analysis. While our findings suggest that GPT-created surveys are more contemporary and accessible than human-authored ones, certain limitations were observed. Notably, GPT-4, despite often delivering outstanding content, occasionally exhibited lapses like missing details or factual errors. At last, we compared the rating behavior between humans and GPT-4 and found systematic bias in using GPT evaluation.},
-  selected  = {false}
+  selected  = {false},
+  pdf       = {https://aclanthology.org/2024.findings-acl.321.pdf},
+  code      = {https://github.com/astridesa/EDULLM/tree/master}
 }
 
 @article{doi:10.1056/AIra2400012,
@@ -623,7 +688,7 @@
   doi       = {10.1056/AIra2400012},
   url       = {https://ai.nejm.org/doi/full/10.1056/AIra2400012},
   abstract  = {Privacy and ethical considerations limit access to large-scale clinical datasets, particularly clinical text data, which contain extensive and diverse information and serve as the foundation for building clinical large language models (LLMs). The limited accessibility of clinical text data impedes the development of clinical artificial intelligence systems and hampers research participation from resource-poor regions and medical institutions, thereby exacerbating health care disparities. In this review, we conduct a global review to identify publicly available clinical text datasets and elaborate on their accessibility, diversity, and usability for clinical LLMs.},
-  selected  = {false}
+  selected  = {false},
 }
 
 @article{info:doi/10.2196/60601,
@@ -638,7 +703,9 @@
   doi       = {10.2196/60601},
   url       = {https://www.jmir.org/2024/1/e60601},
   abstract  = {This study aims to describe the development and preliminary evaluation of Ascle. Ascle is tailored for biomedical researchers and clinical staff with an easy-to-use, all-in-one solution that requires minimal programming expertise. For the first time, Ascle provides 4 advanced and challenging generative functions: question-answering, text summarization, text simplification, and machine translation. In addition, Ascle integrates 12 essential NLP functions, along with query and search capabilities for clinical databases.},
-  selected  = {false}
+  selected  = {false},
+  pdf       = {https://www.jmir.org/2024/1/e60601/PDF},
+  code      = {https://github.com/Yale-LILY/Ascle},
 }
 
 % =============================================================================
@@ -657,7 +724,9 @@
   location  = {Macao, P.R.China},
   series    = {IJCAI '23},
   abstract  = {Large pre-trained models have revolutionized natural language processing (NLP) research and applications, but high training costs and limited data resources have prevented their benefits from being shared equally amongst speakers of all the world's languages. To address issues of cross-linguistic access to such models and reduce energy consumption for sustainability during large-scale model training, this study proposes an effective and energy-efficient framework called Green-PLM that uses bilingual lexicons to directly "translate" pre-trained language models of one language into another at almost no additional cost. We validate this approach in 18 languages' BERT models and show that this framework is comparable to, if not better than, other heuristics with high training costs. In addition, given lightweight continued pretraining on limited data where available, this framework outperforms the original monolingual language models in six out of seven tested languages with up to 200x less pre-training efforts. Aiming at the Leave No One Behind Principle (LNOB), our approach manages to reduce inequalities between languages and energy consumption greatly. We make our codes and models publicly available at https://github.com/qcznlp/GreenPLMs.},
-  selected  = {true}
+  selected  = {true},
+  pdf       = {https://www.ijcai.org/proceedings/2023/0698.pdf},
+  code      = {https://github.com/qcznlp/GreenPLMs},
 }
 
 @inproceedings{lam-etal-2023-large,
@@ -673,7 +742,9 @@
   doi       = {10.18653/v1/2023.findings-acl.605},
   pages     = {9493--9506},
   abstract  = {While a large body of literature suggests that large language models (LLMs) acquire rich linguistic representations, little is known about whether they adapt to linguistic biases in a human-like way. The present study probes this question by asking whether LLMs display human-like referential biases using stimuli and procedures from real psycholinguistic experiments. Recent psycholinguistic studies suggest that humans adapt their referential biases with recent exposure to referential patterns; closely replicating three relevant psycholinguistic experiments from Johnson & Arnold (2022) in an in-context learning (ICL) framework, we found that InstructGPT adapts its pronominal interpretations in response to the frequency of referential patterns in the local discourse, though in a limited fashion: adaptation was only observed relative to syntactic but not semantic biases. By contrast, FLAN-UL2 fails to generate meaningful patterns. Our results provide further evidence that contemporary LLMs discourse representations are sensitive to syntactic patterns in the local context but less so to semantic patterns. Our data and code are available at https://github.com/zkx06111/llm_priming.},
-  selected  = {false}
+  selected  = {false},
+  pdf       = {https://aclanthology.org/2023.findings-acl.605.pdf},
+  code      = {https://github.com/zkx06111/llm_priming},
 }
 
 @inproceedings{10095691,
@@ -684,7 +755,7 @@
   year      = {2023},
   pages     = {1--5},
   doi       = {10.1109/ICASSP49357.2023.10095691},
-  selected  = {false}
+  selected  = {false},
 }
 
 % =============================================================================
@@ -703,7 +774,8 @@
   url       = {https://aclanthology.org/2022.coling-1.69/},
   pages     = {824--836},
   abstract  = {Irony is a ubiquitous figurative language in daily communication. Previously, many researchers have approached irony from linguistic, cognitive science, and computational aspects. Recently, some progress have been witnessed in automatic irony processing due to the rapid development in deep neural models in natural language processing (NLP). In this paper, we will provide a comprehensive overview of computational irony, insights from linguisic theory and cognitive science, as well as its interactions with downstream NLP tasks and newly proposed multi-X irony processing perspectives.},
-  selected  = {false}
+  selected  = {false},
+  pdf       = {https://aclanthology.org/2022.coling-1.69.pdf}
 }
 
 @inproceedings{zeng22b_interspeech,
@@ -714,7 +786,8 @@
   year      = {2022},
   pages     = {5308--5312},
   doi       = {10.21437/Interspeech.2022-11372},
-  selected  = {false}
+  selected  = {false},
+  pdf       = {https://www.isca-archive.org/interspeech_2022/zeng22b_interspeech.pdf}
 }
 
 @inproceedings{zhou22b_interspeech,
@@ -725,7 +798,8 @@
   year      = {2022},
   pages     = {1096--1100},
   doi       = {10.21437/Interspeech.2022-786},
-  selected  = {false}
+  selected  = {false},
+  pdf       = {https://www.isca-archive.org/interspeech_2022/zhou22b_interspeech.pdf}
 }
 
 @misc{jin2022filterevolveprogressivepseudo,
@@ -737,5 +811,6 @@
   archivePrefix = {arXiv},
   primaryClass = {cs.SD},
   url       = {https://arxiv.org/abs/2210.16318},
-  selected  = {false}
+  selected  = {false},
+  pdf       = {https://arxiv.org/pdf/2210.16318.pdf}
 }
