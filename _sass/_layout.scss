@@ -33,43 +33,6 @@ body.sticky-bottom-footer {
   }
 }
 
-.job-market-note {
-  display: flow-root;
-  max-width: 42rem;
-  margin: 1rem 0 1.4rem;
-  padding: 0.95rem 1.05rem;
-  border: 1px solid #f1c6bf;
-  border-left: 4px solid #d66a5d;
-  border-radius: 12px;
-  background: linear-gradient(135deg, #fff4f1 0%, #ffe8e2 100%);
-  box-shadow: 0 10px 24px rgba(214, 106, 93, 0.12);
-  color: #7a3128;
-
-  p,
-  span,
-  strong,
-  a {
-    color: #7a3128;
-  }
-
-  p {
-    margin: 0;
-    line-height: 1.65;
-  }
-
-  a {
-    font-weight: 600;
-    text-decoration: underline;
-    text-decoration-color: rgba(122, 49, 40, 0.35);
-  }
-}
-
-@media (max-width: 576px) {
-  .job-market-note {
-    max-width: 100%;
-  }
-}
-
 // TODO: redefine content layout.
 
 

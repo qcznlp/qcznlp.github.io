@@ -19,17 +19,6 @@ selected_talks: true
 ---
 I am a 4th-year PhD Candidate focusing on LLMs and computational linguistics at Northwestern University, fortunate to be advised by [Rob Voigt](https://robvoigt.faculty.ucdavis.edu/) and [Kaize Ding](https://kaize0409.github.io/).
 
-<div class="job-market-note">
-  <p>
-    <strong>I am currently on the industry job market</strong> and am looking for
-    full-time Research Scientist / Research Engineer roles in the US and China,
-    focused on LLMs, information retrieval, or AI agents.
-    <a href="{{ site.cv_pdf | prepend: 'assets/pdf/' | relative_url }}">CV</a>
-    ·
-    <a href="mailto:{{ site.email }}">Email</a>
-  </p>
-</div>
-
 My research focuses on **Agent Evaluation**, **Agentic RL**, and **Information Retrieval**. Recent topics include:
 
 - **Agent Evaluation**: [arXiv 2026](https://arxiv.org/abs/2606.15345), [arXiv 2026](https://arxiv.org/abs/2606.05104)
