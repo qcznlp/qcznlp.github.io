@@ -24,7 +24,9 @@ I am a 4th-year PhD Candidate focusing on LLMs and computational linguistics at 
     <strong>I am currently on the industry job market</strong> and am looking for
     full-time Research Scientist / Research Engineer roles in the US,
     focused on LLMs, information retrieval, or AI agents.
-    <a href="{{ site.cv_pdf | prepend: 'assets/pdf/' | relative_url }}">CV</a>
+    <a href="{{ site.resume_pdf | prepend: 'assets/pdf/' | relative_url }}">Resume (1 page)</a>
+    ·
+    <a href="{{ site.cv_pdf | prepend: 'assets/pdf/' | relative_url }}">Full CV</a>
     ·
     <a href="mailto:{{ site.email }}">Email</a>
   </p>
