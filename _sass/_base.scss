@@ -159,6 +159,58 @@ blockquote {
   color: var(--global-theme-color);
 }
 
+// News
+
+.news {
+  th {
+    width: 7rem;
+    white-space: nowrap;
+    font-weight: normal;
+  }
+
+  .news-older {
+    summary {
+      width: fit-content;
+      padding: 0.35rem 0.75rem;
+      border: 1px solid var(--global-divider-color);
+      border-radius: 4px;
+      color: var(--global-theme-color);
+      cursor: pointer;
+
+      span {
+        color: inherit;
+      }
+
+      &:hover {
+        border-color: var(--global-theme-color);
+      }
+
+      &:focus-visible {
+        outline: 2px solid var(--global-theme-color);
+        outline-offset: 2px;
+      }
+    }
+
+    .table-responsive {
+      margin-top: 0.75rem;
+    }
+
+    .news-hide-label {
+      display: none;
+    }
+
+    &[open] {
+      .news-show-label {
+        display: none;
+      }
+
+      .news-hide-label {
+        display: inline;
+      }
+    }
+  }
+}
+
 // Profile
 
 .profile {
