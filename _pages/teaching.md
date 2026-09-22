@@ -3,7 +3,7 @@ layout: page
 permalink: /teaching/
 title: Experience
 description: 
-nav: true
+nav: false
 nav_order: 5
 ---
 ---

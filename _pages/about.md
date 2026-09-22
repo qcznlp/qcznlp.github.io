@@ -15,7 +15,7 @@ latest_posts: true  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 selected_papers_title: "Selected Works"  # Custom title
 social: true  # includes social icons at the bottom of the page
-selected_talks: true
+selected_talks: false
 ---
 I am a 4th-year PhD Candidate focusing on LLMs and computational linguistics at Northwestern University, fortunate to be advised by [Rob Voigt](https://robvoigt.faculty.ucdavis.edu/) and [Kaize Ding](https://kaize0409.github.io/).
 
