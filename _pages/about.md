@@ -34,9 +34,9 @@ I am a final-year PhD candidate focusing on LLMs and computational linguistics a
 
 My research focuses on **Agent Evaluation**, **Agentic RL**, and **Information Retrieval**. Recent topics include:
 
-- **Agent Evaluation**: [arXiv 2026](https://arxiv.org/abs/2606.15345), [arXiv 2026](https://arxiv.org/abs/2606.05104)
-- **Agentic RL**: [ACL 2026](https://aclanthology.org/2026.acl-long.520/), [Findings of ACL 2026](https://aclanthology.org/2026.findings-acl.1974/)
-- **Information Retrieval**: [Findings of ACL 2026](https://aclanthology.org/2026.findings-acl.636/), [arXiv 2026](https://arxiv.org/abs/2604.18845)
+- **Agent Evaluation**: [Cross-Lingual Research](https://arxiv.org/abs/2606.15345), [Knowledge Benchmarking](https://arxiv.org/abs/2606.05104)
+- **Agentic RL**: [Co-work Agents](https://arxiv.org/abs/2609.11977), [Confidence Calibration](https://aclanthology.org/2026.acl-long.520/), [Step Optimization](https://aclanthology.org/2026.findings-acl.1974/)
+- **Information Retrieval**: [Code-Switching Retrieval](https://aclanthology.org/2026.findings-acl.636/), [Instruction Following](https://arxiv.org/abs/2604.18845)
 
 I also work on biomedical NLP, LLMs and cognitive science, and multilingual NLP.
 
