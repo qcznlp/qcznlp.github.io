@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Comparing Muon, NorMuon and AdamW for Fine-tuning a Dense Retriever"
-date: 2026-09-30 00:00:00-0500
+date: 2026-10-09 00:00:00-0500
 description: A controlled comparison of three optimizers for fine-tuning DenseOn, with learning rates chosen by validation loss and three seeds per recipe.
 tags: [blog]
 categories: [Information Retrieval]
