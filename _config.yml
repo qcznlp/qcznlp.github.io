@@ -7,12 +7,13 @@ first_name: Qingcheng
 middle_name: 
 last_name: Zeng
 email: qingchengzeng2027@u.northwestern.edu
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+description: >-
+  Qingcheng Zeng is a PhD candidate at Northwestern University researching
+  LLM agents, agent evaluation, reinforcement learning, and information retrieval.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
+keywords: Qingcheng Zeng, Northwestern University, large language models, AI agents, agent evaluation, reinforcement learning, information retrieval, computational linguistics
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🤖 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -54,9 +55,10 @@ max_width: 900px
 # Open Graph & Schema.org
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
 serve_schema_org: false # Include Schema.org in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+og_image: https://qcznlp.github.io/assets/img/photo.jpg
+og_image_alt: Portrait of Qingcheng Zeng
 
 # -----------------------------------------------------------------------------
 # Social integration
@@ -206,6 +208,25 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
+  # Unused theme examples
+  - _pages/projects.md
+  - _pages/repositories.md
+  - _pages/dropdown.md
+  - _pages/about_einstein.md
+  - _projects/1_project.md
+  - assets/json/resume.json
+  - assets/json/table_data.json
+  - assets/jupyter/blog.ipynb
+  - assets/plotly/demo.html
+  - assets/pdf/example_pdf.pdf
+  # Repository documentation and build helpers
+  - AGENTS.md
+  - README.md
+  - CONTRIBUTING.md
+  - Dockerfile
+  - docker-compose.yml
+  - purgecss.config.js
+  - reports
 keep_files:
   - CNAME
   - .nojekyll
@@ -400,9 +421,7 @@ medium_zoom:
 # Get external JSON data
 # -----------------------------------------------------------------------------
 
-jekyll_get_json:
-  - data: resume
-    json: assets/json/resume.json # it can also be an url
+jekyll_get_json: []
 jsonresume:
   - basics
   - work
