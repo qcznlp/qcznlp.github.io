@@ -1,4 +1,13 @@
 $(document).ready(function() {
+  $('button.more-authors').click(function() {
+    const expanded = this.getAttribute('aria-expanded') === 'true';
+    const authorList = this.closest('.author');
+    authorList.querySelector('.author-short').hidden = !expanded;
+    authorList.querySelector('.author-full').hidden = expanded;
+    this.setAttribute('aria-expanded', String(!expanded));
+    this.textContent = expanded ? this.dataset.collapsedLabel : 'Show fewer authors';
+  });
+
   // add toggle functionality to abstract and bibtex buttons
   $('a.abstract').click(function() {
     $(this).parent().parent().find(".abstract.hidden").toggleClass('open');

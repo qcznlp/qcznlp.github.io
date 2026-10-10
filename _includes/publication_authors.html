@@ -1,0 +1,62 @@
+{%- assign author_count = entry.author_array | size -%}
+{%- assign author_limit = site.max_author_limit | default: author_count -%}
+{%- if author_limit < 1 -%}
+  {%- assign author_limit = author_count -%}
+{%- endif -%}
+{%- assign full_authors = '' -%}
+{%- assign short_authors = '' -%}
+{%- assign visible_author_count = 0 -%}
+{%- assign hidden_author_count = 0 -%}
+{%- assign omitted_authors = false -%}
+{%- for author in entry.author_array -%}
+  {%- assign author_is_self = false -%}
+  {%- assign author_last_name = author.last | remove: '¶' | remove: '&' | remove: '*' | remove: '†' | remove: '^' | strip -%}
+  {%- assign author_first_name = author.first | remove: '¶' | remove: '&' | remove: '*' | remove: '†' | remove: '^' | strip -%}
+  {%- if site.scholar.last_name contains author_last_name -%}
+    {%- if site.scholar.first_name contains author_first_name -%}
+      {%- assign author_is_self = true -%}
+    {%- endif -%}
+  {%- endif -%}
+  {%- assign coauthor_url = nil -%}
+  {%- if site.data.coauthors[author_last_name] -%}
+    {%- for coauthor in site.data.coauthors[author_last_name] -%}
+      {%- if coauthor.firstname contains author_first_name -%}
+        {%- assign coauthor_url = coauthor.url -%}
+        {%- break -%}
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endif -%}
+  {%- capture author_markup -%}
+    {%- if author_is_self -%}
+      <em>{{ author.first | escape }} {{ author.last | escape }}</em>
+    {%- elsif coauthor_url -%}
+      <a href="{{ coauthor_url | escape }}">{{ author.first | escape }} {{ author.last | escape }}</a>
+    {%- else -%}
+      {{ author.first | escape }} {{ author.last | escape }}
+    {%- endif -%}
+  {%- endcapture -%}
+  {%- capture full_authors -%}
+    {{ full_authors }}
+    {%- unless forloop.first -%}, {% if forloop.last %}and {% endif %}{%- endunless -%}
+    {{ author_markup }}
+  {%- endcapture -%}
+  {%- if forloop.index0 < author_limit or author_is_self -%}
+    {%- capture short_authors -%}
+      {{ short_authors }}
+      {%- if visible_author_count > 0 -%}, {% if omitted_authors %}…, {% endif %}{%- endif -%}
+      {{ author_markup }}
+    {%- endcapture -%}
+    {%- assign visible_author_count = visible_author_count | plus: 1 -%}
+    {%- assign omitted_authors = false -%}
+  {%- else -%}
+    {%- assign hidden_author_count = hidden_author_count | plus: 1 -%}
+    {%- assign omitted_authors = true -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- if hidden_author_count > 0 -%}
+  <span class="author-short" id="authors-short-{{ entry.key | escape }}">{{ short_authors }}{% if omitted_authors %}, …{% endif %}</span>
+  <span class="author-full" id="authors-full-{{ entry.key | escape }}" hidden>{{ full_authors }}</span>
+  <button type="button" class="more-authors" aria-expanded="false" aria-controls="authors-full-{{ entry.key | escape }} authors-short-{{ entry.key | escape }}" data-collapsed-label="{{ hidden_author_count }} more {% if hidden_author_count == 1 %}author{% else %}authors{% endif %}">{{ hidden_author_count }} more {% if hidden_author_count == 1 %}author{% else %}authors{% endif %}</button>
+{%- else -%}
+  {{ full_authors }}
+{%- endif -%}

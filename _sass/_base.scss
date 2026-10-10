@@ -884,19 +884,26 @@ footer.sticky-bottom {
           }
         }
 
-        >em {
+        em {
           border-bottom: 1px solid;
           font-style: normal;
+          font-weight: 500;
         }
 
-        >span.more-authors {
-          color: var(--global-text-color-light);
-          border-bottom: 1px dashed var(--global-text-color-light);
+        >button.more-authors {
+          appearance: none;
+          background: none;
+          border: 0;
+          border-bottom: 1px dashed var(--global-theme-color);
+          color: var(--global-theme-color);
+          font: inherit;
+          margin-left: 0.25rem;
+          padding: 0;
           cursor: pointer;
 
-          &:hover {
-            color: var(--global-text-color);
-            border-bottom: 1px dashed var(--global-text-color);
+          &:hover,
+          &:focus-visible {
+            border-bottom-style: solid;
           }
         }
       }
