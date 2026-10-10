@@ -1,0 +1,16 @@
+# Homepage groups and paper order. Paper details come from papers.bib.
+- title: Evaluation & Reliability
+  papers:
+    - zeng-etal-2025-thinking
+    - lu2026monolingualdeepresearchevaluating
+
+- title: Agentic RL
+  papers:
+    - li-etal-2026-verified
+    - xuan-etal-2026-confidence
+    - chen2026occamy10openparetofrontier35b
+
+- title: Information Retrieval
+  papers:
+    - zeng2026dualviewtraininginstructionfollowinginformation
+    - zeng-etal-2026-code

@@ -1,0 +1,30 @@
+---
+---
+{%- assign selected_paper_url = entry.html | default: entry.url | default: entry.pdf -%}
+{%- assign selected_paper_note = entry.note | default: '' | strip -%}
+<div class="selected-work">
+  <div class="selected-work-title">
+    <a href="{{ selected_paper_url | escape }}">{{ entry.title }}</a>
+  </div>
+  <div class="selected-work-meta">
+    <span>
+      {%- if selected_paper_note contains 'Accepted at' -%}
+        {{ selected_paper_note }}
+      {%- else -%}
+        {{ entry.abbr }} {{ entry.year }}
+      {%- endif -%}
+    </span>
+    <span class="selected-work-links">
+      <a href="{{ selected_paper_url | escape }}">Paper</a>
+      {%- if entry.code %}
+        <a href="{{ entry.code | escape }}">Code</a>
+      {%- endif %}
+      {%- if entry.model %}
+        <a href="{{ entry.model | escape }}">Model</a>
+      {%- endif %}
+      {%- if entry.dataset %}
+        <a href="{{ entry.dataset | escape }}">Dataset</a>
+      {%- endif %}
+    </span>
+  </div>
+</div>

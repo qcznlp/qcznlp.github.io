@@ -1,4 +1,17 @@
 
-          <div class="publications">
-            {% bibliography -f {{ site.scholar.bibliography }} --group_by none --query @*[selected=true]* %}
-          </div>
+<div class="selected-works">
+  {% for group in site.data.selected_works %}
+    <details class="selected-works-group"{% if forloop.first %} open{% endif %}>
+      <summary>
+        <span>{{ group.title | escape }}</span>
+        <span class="selected-works-count">{{ group.papers | size }}<span class="sr-only"> papers</span></span>
+      </summary>
+      <div class="selected-works-papers">
+        {% for paper_key in group.papers %}
+          {% bibliography -f {{ site.scholar.bibliography }} --template selected-work --group_by none --query @*[key={{ paper_key }}] %}
+        {% endfor %}
+      </div>
+    </details>
+  {% endfor %}
+  <a class="selected-works-all" href="{{ '/publications/' | relative_url }}">View all publications →</a>
+</div>
