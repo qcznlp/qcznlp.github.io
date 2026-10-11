@@ -9,7 +9,7 @@ nav_order: 1
 <!-- _pages/publications.md -->
 <div class="publications">
 
-<p class="author-legend">* Equal contribution; † Corresponding author.</p>
+<p class="author-legend">* Equal contribution; ‡ Co-second authors; † Corresponding author.</p>
 
 {% bibliography -f {{ site.scholar.bibliography }} %}
 

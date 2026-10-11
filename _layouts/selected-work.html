@@ -11,7 +11,7 @@
       {%- if selected_paper_note contains 'Accepted at' -%}
         {{ selected_paper_note }}
       {%- else -%}
-        {{ entry.abbr }} {{ entry.year }}
+        {{ entry.abbr }} {{ entry.year }}{% if selected_paper_note == 'Oral presentation' %} (Oral){% endif %}
       {%- endif -%}
     </span>
     <span class="selected-work-links">

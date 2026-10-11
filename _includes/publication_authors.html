@@ -10,8 +10,8 @@
 {%- assign omitted_authors = false -%}
 {%- for author in entry.author_array -%}
   {%- assign author_is_self = false -%}
-  {%- assign author_last_name = author.last | remove: '¶' | remove: '&' | remove: '*' | remove: '†' | remove: '^' | strip -%}
-  {%- assign author_first_name = author.first | remove: '¶' | remove: '&' | remove: '*' | remove: '†' | remove: '^' | strip -%}
+  {%- assign author_last_name = author.last | remove: '¶' | remove: '&' | remove: '*' | remove: '†' | remove: '‡' | remove: '^' | strip -%}
+  {%- assign author_first_name = author.first | remove: '¶' | remove: '&' | remove: '*' | remove: '†' | remove: '‡' | remove: '^' | strip -%}
   {%- if site.scholar.last_name contains author_last_name -%}
     {%- if site.scholar.first_name contains author_first_name -%}
       {%- assign author_is_self = true -%}
