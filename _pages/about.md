@@ -36,8 +36,8 @@ My research focuses on **Agent Evaluation**, **Agentic RL**, and **Information R
 
 - **Agent Evaluation**: [Cross-Lingual Research](https://arxiv.org/abs/2606.15345), [Knowledge Benchmarking](https://arxiv.org/abs/2606.05104)
 - **Agentic RL**: [Co-work Agents](https://arxiv.org/abs/2609.11977), [Confidence Calibration](https://aclanthology.org/2026.acl-long.520/), [Step Optimization](https://aclanthology.org/2026.findings-acl.1974/)
-- **Information Retrieval**: [Code-Switching Retrieval](https://aclanthology.org/2026.findings-acl.636/), [Instruction Following](https://arxiv.org/abs/2604.18845)
+- **Information Retrieval**: [Code-Switching Retrieval](https://aclanthology.org/2026.findings-acl.636/), [Instruction Following](https://arxiv.org/abs/2604.18845), [Embedding Regularization](https://aclanthology.org/2026.emnlp-main.1585/)
 
-I also work on biomedical NLP, LLMs and cognitive science, and multilingual NLP.
+I also work on biomedical NLP, [LLMs and cognitive science](https://aclanthology.org/2026.emnlp-main.673/), and multilingual NLP.
 
 Prior to Northwestern, I received my bachelor's degree from Zhejiang University and the University of Manchester, with a focus on linguistics and formal logic. During my undergraduate studies, I worked extensively on speech processing.
